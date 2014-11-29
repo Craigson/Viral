@@ -199,8 +199,8 @@ class tweetParticle {
       }
     }
     if (beingHeld == true) {
-      location.x = handX;
-      location.y = handY;
+      location.x = mouseX;
+      location.y = mouseY;
       displayHashTag();
     }
 

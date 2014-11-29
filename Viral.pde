@@ -72,7 +72,7 @@ int previousRecent =0;
 
 //-----------------------Setup--------------------------
 void setup() {
-  size(1920, 1080, P2D);
+  size(1440, 900, P2D);
   //smooth(4);
   colorMode(HSB, 360, 100, 100);
   leap = new LeapMotion(this);
@@ -159,13 +159,15 @@ void draw() {
     }
     //end of code for leap motion
 
+/* uncomment out this code to use the leap motion, need to
+changed all mouseX,mouseY variable to handX,handY
     if (pinched == true) {
       clicked = true;
       for (int i = 0; i < particles.size (); i++) {
         tweetParticle particle = particles.get(i);
         //if there are no tweets being held, and a tweet is in range, grab it
         if (numberGrabbed < 1) {
-          if (particle.isWithinReach(handX, handY, selectionRange) == true) {
+          if (particle.isWithinReach(mouseX, mouseY, selectionRange) == true) {
             particle.beingHeld = true; //set the variable inside the particle object to indicate that it has been grabbed
             numberGrabbed = 1; //increase the int numberGrabbed to prevent other tweets from being held
             particle.previousVelocity = particle.velocity;
@@ -200,7 +202,7 @@ void draw() {
     }//end of mouse released
 
 
-
+*/
 
     dropZone.display();
 
@@ -258,7 +260,7 @@ void draw() {
       //if the mouse pointer is within close proximity of a particle, draw the
       //particle's userID to the screen, if the mouse is pressed while it is within
       //proximity, display the tweet
-      if (particle.checkProximity(handX, handY) == true) {
+      if (particle.checkProximity(mouseX, mouseY) == true) {
         textSize(20);
         text(stringID, particle.location.x + selectionRange, particle.location.y+5, 300, 100);
         if (clicked == true) {
@@ -387,7 +389,7 @@ void mousePressed() {
     tweetParticle particle = particles.get(i);
     //if there are no tweets being held, and a tweet is in range, grab it
     if (numberGrabbed < 1) {
-      if (particle.isWithinReach(handX, handY, selectionRange) == true) {
+      if (particle.isWithinReach(mouseX, mouseY, selectionRange) == true) {
         particle.beingHeld = true; //set the variable inside the particle object to indicate that it has been grabbed
         numberGrabbed++; //increase the int numberGrabbed to prevent other tweets from being held
         particle.previousVelocity = particle.velocity;
@@ -427,7 +429,7 @@ void mouseReleased() {
 void drawCircle() {
   noStroke();
   fill(255, 50);
-  ellipse(handX, handY, selectionRange*2, selectionRange*2);
+  ellipse(mouseX, mouseY, selectionRange*2, selectionRange*2);
 }
 
 
@@ -435,4 +437,10 @@ void drawCircle() {
 
 void keyPressed() {
   showConnections = !showConnections;
+}
+
+//-------------------------drawConsole()----------------
+
+void drawConsole(){
+  
 }

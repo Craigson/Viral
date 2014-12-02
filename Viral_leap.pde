@@ -1,12 +1,3 @@
-//microscope
-//apply drag force
-//create console for dragging/dropping/displaying tweets
-//create recent tweets feed (with time)
-////show common/popular hashtags and animate visualisation when (location/hashtags/tweet count)
-//incorporate biohazard symbol / loading screen
-//add twitter logo
-////animate console when tweet is grabbed - to indicate where to place it
-
 //extra features:
 //object moving along drawn vector lines
 //use like a pipette/ dropper to grab
@@ -94,7 +85,6 @@ void setup() {
   handOpen = loadShape("handOpen.svg");
   handPinched = loadShape("handPinched.svg");
   micro = loadShape("micro.svg");
-
   shapeMode(CENTER);
 
   noCursor();
@@ -144,9 +134,10 @@ void draw() {
   
   infectionCount = 0;
 
-  if (frameCount < 200) {
+  if (frameCount < 100) {
+    shapeMode(CENTER);
     //text("loading", width/2, height/2);
-    shape(shape, width/2, height/2);
+    //shape(shape, width/2, height/2);
     // shape(twitter, 30, 30);
   } else {
     if (timer2.isFinished()) {
@@ -173,7 +164,7 @@ void draw() {
         pinched = false;
       }
       handY = map(handPos.z, 25, 60, height, 0);
-      handX = map(handPos.x, 200, 1400, 0, width);
+      handX = map(handPos.x, 400, 1200, 0, width);
       handX = constrain(handX, 0, width);
       handY = constrain(handY, 0, height);
     }
@@ -181,13 +172,14 @@ void draw() {
 
     /* uncomment out this code to use the leap motion, need to
      changed all mouseX,mouseY variable to handX,handY
+     */
      if (pinched == true) {
      clicked = true;
      for (int i = 0; i < particles.size (); i++) {
      tweetParticle particle = particles.get(i);
      //if there are no tweets being held, and a tweet is in range, grab it
      if (numberGrabbed < 1) {
-     if (particle.isWithinReach(mouseX, mouseY, selectionRange) == true) {
+     if (particle.isWithinReach(handX, handY, selectionRange) == true) {
      particle.beingHeld = true; //set the variable inside the particle object to indicate that it has been grabbed
      numberGrabbed = 1; //increase the int numberGrabbed to prevent other tweets from being held
      particle.previousVelocity = particle.velocity;
@@ -216,13 +208,13 @@ void draw() {
      }
      }
      particle.beingHeld = false;
-     //particle.location = new PVector(mouseX,mouseY);
-     //particle.velocity = new PVector(mouseX - pmouseX, mouseY - pmouseY);
+     //particle.location = new PVector(handX,handY);
+     //particle.velocity = new PVector(handX - phandX, handY - phandY);
      }
      }//end of mouse released
      
      
-     */
+     
 
     dropZone.display();
 
@@ -279,7 +271,7 @@ void draw() {
       //if the mouse pointer is within close proximity of a particle, draw the
       //particle's userID to the screen, if the mouse is pressed while it is within
       //proximity, display the tweet
-      if (particle.checkProximity(mouseX, mouseY) == true && particle.isRecent == false) {
+      if (particle.checkProximity(handX, handY) == true && particle.isRecent == false) {
         textSize(14);
         text(stringID, particle.location.x + selectionRange, particle.location.y, 300, 100);
         if (clicked == true) {
@@ -410,7 +402,7 @@ void mousePressed() {
     tweetParticle particle = particles.get(i);
     //if there are no tweets being held, and a tweet is in range, grab it
     if (numberGrabbed < 1) {
-      if (particle.isWithinReach(mouseX, mouseY, selectionRange) == true) {
+      if (particle.isWithinReach(handX, handY, selectionRange) == true) {
         particle.beingHeld = true; //set the variable inside the particle object to indicate that it has been grabbed
         numberGrabbed++; //increase the int numberGrabbed to prevent other tweets from being held
         particle.previousVelocity = particle.velocity;
@@ -440,8 +432,8 @@ void mouseReleased() {
       }
     }
     particle.beingHeld = false;
-    //particle.location = new PVector(mouseX,mouseY);
-    //particle.velocity = new PVector(mouseX - pmouseX, mouseY - pmouseY);
+    //particle.location = new PVector(handX,handY);
+    //particle.velocity = new PVector(handX - phandX, handY - phandY);
   }
 }//end of mouse released
 
@@ -450,12 +442,12 @@ void mouseReleased() {
 void drawCircle() {
   noStroke();
   fill(255, 50);
-  ellipse(mouseX, mouseY, selectionRange*2, selectionRange*2);
+  ellipse(handX, handY, selectionRange*2, selectionRange*2);
 
   if (mousePressed == true || pinched == true){
-shape(handPinched, mouseX + selectionRange, mouseY+selectionRange);
+shape(handPinched, handX + selectionRange, handY+selectionRange);
   } else {
-      shape(handOpen, mouseX + selectionRange + 10, mouseY+selectionRange + 10);
+      shape(handOpen, handX + selectionRange + 10, handY+selectionRange + 10);
   }
 }
 

@@ -7,12 +7,12 @@ void retrieveRecentTweets() {
 
   // Set inputs
   tweetsChoreo.setCount("10");
-  tweetsChoreo.setAccessToken("2891711796-hiNMzesi9XkVztVPNy6wlCa3gaatPELwgZZAAye");
+  tweetsChoreo.setAccessToken("YOUR_TOKEN_HERE");
   tweetsChoreo.setQuery("#ebola");
-  tweetsChoreo.setAccessTokenSecret("wesUm5jOLPLPOg30ExJc3BABHLbCc7MoAFkPCFiVx2AnS");
-  tweetsChoreo.setConsumerSecret("6loGUsnNSppf1XsNRPfEbHHRqiT1lUtmrUAMguDfCCtPyaFGQX");
+  tweetsChoreo.setAccessTokenSecret("YOUR_TOKEN_SECRET_HERE");
+  tweetsChoreo.setConsumerSecret("YOUR_CONSUMER_SECRET");
   tweetsChoreo.setLanguage("en");
-  tweetsChoreo.setConsumerKey("x9PMA2JEKIOLBZxqJRgW9tG0X");
+  tweetsChoreo.setConsumerKey("YOUR_CONSUMER_KEY");
   tweetsChoreo.setResultType("recent");
 
   // Run the Choreo and store the results

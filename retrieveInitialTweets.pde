@@ -12,12 +12,8 @@ void retrieveInitialTweets() {
 
   // Set inputs
   tweetsChoreo.setCount(initialCount);
- // tweetsChoreo.setAccessToken("2891711796-PlDTEVANONl3gWTcUOPXQyEXfszF0lG9LHkMWbx");
   tweetsChoreo.setQuery("#ebola");
- // tweetsChoreo.setAccessTokenSecret("RQEizZxTQgtqkrcMYr6nCFiUsAr6bxbG4zMorOmMqTOfa");
- // tweetsChoreo.setConsumerSecret("zqXKdn6xRsXc3WQPsMo9cXn2tZvxswdB4V0llLu3tvGvqtyMlJ");
   tweetsChoreo.setLanguage("en");
- // tweetsChoreo.setConsumerKey("LSbb1STZ6ERxZOWIjv2C7CBRW");
   tweetsChoreo.setResultType("mixed");
 
   // Run the Choreo and store the results

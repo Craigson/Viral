@@ -187,6 +187,7 @@ class tweetParticle {
     if (isRecent == true) {
       noStroke();
       fill(200,65,95);
+      textAlign(LEFT);
       textSize(14);
       text(userID, location.x + selectionRange, location.y+5);
     } else {
@@ -199,8 +200,8 @@ class tweetParticle {
       }
     }
     if (beingHeld == true) {
-      location.x = mouseX;
-      location.y = mouseY;
+      location.x = handX;
+      location.y = handY;
       displayHashTag();
     }
 

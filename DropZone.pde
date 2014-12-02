@@ -24,7 +24,7 @@ class DropZone {
     fill(255,50);
     ellipse(x,y,2*r,2*r);
     if (numberGrabbed == 1 && zoneIsOccupied == false){
-      fill(0);
+      fill(100,100,100,30);
       strokeWeight(2);
       stroke(360,0,30);
       ellipse(x,y,2*r2,2*r2);

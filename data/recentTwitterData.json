@@ -1,16 +1,106 @@
 {
   "statuses": [
     {
+      "contributors": null,
+      "text": "Sooo you know that #Ebola is still out there right? But no Americans have it so it's okay I guess. No front page anymore #msm ? FU.",
+      "geo": null,
+      "retweeted": false,
+      "in_reply_to_screen_name": null,
+      "truncated": false,
+      "lang": "en",
+      "entities": {
+        "symbols": [],
+        "urls": [],
+        "hashtags": [
+          {
+            "text": "Ebola",
+            "indices": [
+              19,
+              25
+            ]
+          },
+          {
+            "text": "msm",
+            "indices": [
+              121,
+              125
+            ]
+          }
+        ],
+        "user_mentions": []
+      },
+      "in_reply_to_status_id_str": null,
+      "id": 539598600159121408,
+      "source": "<a href=\"http://www.handmark.com\" rel=\"nofollow\">TweetCaster for iOS<\/a>",
+      "in_reply_to_user_id_str": null,
+      "favorited": false,
+      "in_reply_to_status_id": null,
+      "retweet_count": 0,
+      "created_at": "Tue Dec 02 01:55:06 +0000 2014",
+      "in_reply_to_user_id": null,
+      "favorite_count": 0,
+      "id_str": "539598600159121408",
+      "place": null,
+      "user": {
+        "location": "",
+        "default_profile": false,
+        "profile_background_tile": true,
+        "statuses_count": 10290,
+        "lang": "en",
+        "profile_link_color": "0084B4",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/59581076/1358183310",
+        "id": 59581076,
+        "following": false,
+        "protected": false,
+        "profile_location": null,
+        "favourites_count": 2974,
+        "profile_text_color": "333333",
+        "description": "The Electric 'Dyna-Mo' Chen aka 'The Asian Sensation' aka The Mouth of China South - Wrestler:Unstoppable personality and FBW Hall of Famer.",
+        "verified": false,
+        "contributors_enabled": false,
+        "profile_sidebar_border_color": "000000",
+        "name": "Mo Fei Chen",
+        "profile_background_color": "9AE4E8",
+        "created_at": "Thu Jul 23 20:36:19 +0000 2009",
+        "is_translation_enabled": false,
+        "default_profile_image": false,
+        "followers_count": 471,
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/529992901896318976/yrBqg5m3_normal.jpeg",
+        "geo_enabled": true,
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/174205571/chentrimmed.png",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/174205571/chentrimmed.png",
+        "follow_request_sent": false,
+        "entities": {"description": {"urls": []}},
+        "url": null,
+        "utc_offset": -18000,
+        "time_zone": "Lima",
+        "notifications": false,
+        "profile_use_background_image": true,
+        "friends_count": 398,
+        "profile_sidebar_fill_color": "DDFFCC",
+        "screen_name": "DynaMoChen",
+        "id_str": "59581076",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/529992901896318976/yrBqg5m3_normal.jpeg",
+        "listed_count": 9,
+        "is_translator": false
+      },
+      "coordinates": null,
+      "metadata": {
+        "result_type": "recent",
+        "iso_language_code": "en"
+      }
+    },
+    {
       "retweeted": false,
       "in_reply_to_screen_name": null,
       "possibly_sensitive": false,
       "truncated": false,
       "lang": "en",
       "in_reply_to_status_id_str": null,
-      "id": 538713426856382464,
+      "id": 539598555703705601,
       "in_reply_to_user_id_str": null,
       "in_reply_to_status_id": null,
-      "created_at": "Sat Nov 29 15:17:44 +0000 2014",
+      "created_at": "Tue Dec 02 01:54:55 +0000 2014",
       "favorite_count": 0,
       "place": null,
       "coordinates": null,
@@ -18,11 +108,11 @@
         "result_type": "recent",
         "iso_language_code": "en"
       },
-      "text": "RT @ResearchChamp: MT @modrnhealthcr:PODCAST: #Ebola preparation no substitute for experience @texashealth CEO Berdan- http://t.co/Es7rzAqM\u2026",
+      "text": "RT @EbolaPhone: #Ebola Transmission:\nIt's what *Falls Out Of*\nthe Aerosol that matters!\n\nhttp://t.co/LhqT74Dcoo\n\n@MackayIM @Casillic \nhttp:\u2026",
       "contributors": null,
       "retweeted_status": {
         "contributors": null,
-        "text": "MT @modrnhealthcr:PODCAST: #Ebola preparation no substitute for experience @texashealth CEO Berdan- http://t.co/Es7rzAqMlC #NursesFightEbola",
+        "text": "#Ebola Transmission:\nIt's what *Falls Out Of*\nthe Aerosol that matters!\n\nhttp://t.co/LhqT74Dcoo\n\n@MackayIM @Casillic \nhttp://t.co/55PxG039rw",
         "geo": null,
         "retweeted": false,
         "in_reply_to_screen_name": null,
@@ -32,117 +122,146 @@
         "entities": {
           "symbols": [],
           "urls": [{
-            "expanded_url": "http://buff.ly/15AKP7v",
+            "expanded_url": "http://virologydownunder.blogspot.com.au/2014/10/its-what-falls-out-of-aerosol-that.html",
             "indices": [
-              100,
-              122
+              73,
+              95
             ],
-            "display_url": "buff.ly/15AKP7v",
-            "url": "http://t.co/Es7rzAqMlC"
+            "display_url": "virologydownunder.blogspot.com.au/2014/10/its-wh\u2026",
+            "url": "http://t.co/LhqT74Dcoo"
           }],
-          "hashtags": [
-            {
-              "text": "Ebola",
-              "indices": [
-                27,
-                33
-              ]
+          "hashtags": [{
+            "text": "Ebola",
+            "indices": [
+              0,
+              6
+            ]
+          }],
+          "media": [{
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "resize": "crop",
+                "h": 150
+              },
+              "small": {
+                "w": 340,
+                "resize": "fit",
+                "h": 255
+              },
+              "large": {
+                "w": 1024,
+                "resize": "fit",
+                "h": 770
+              },
+              "medium": {
+                "w": 600,
+                "resize": "fit",
+                "h": 451
+              }
             },
-            {
-              "text": "NursesFightEbola",
-              "indices": [
-                123,
-                140
-              ]
-            }
-          ],
+            "id": 519645789128105985,
+            "media_url_https": "https://pbs.twimg.com/media/BzYnF44CIAEWLLt.png",
+            "media_url": "http://pbs.twimg.com/media/BzYnF44CIAEWLLt.png",
+            "expanded_url": "http://twitter.com/Casillic/status/519645791556608000/photo/1",
+            "source_status_id_str": "519645791556608000",
+            "indices": [
+              118,
+              140
+            ],
+            "source_status_id": 519645791556608000,
+            "id_str": "519645789128105985",
+            "type": "photo",
+            "display_url": "pic.twitter.com/55PxG039rw",
+            "url": "http://t.co/55PxG039rw"
+          }],
           "user_mentions": [
             {
-              "id": 18935711,
-              "name": "Modern Healthcare",
+              "id": 1352962327,
+              "name": "Ian M Mackay, PhD",
               "indices": [
-                3,
-                17
+                97,
+                106
               ],
-              "screen_name": "modrnhealthcr",
-              "id_str": "18935711"
+              "screen_name": "MackayIM",
+              "id_str": "1352962327"
             },
             {
-              "id": 29289157,
-              "name": "TexasHealthResources",
+              "id": 144231081,
+              "name": "Casillic",
               "indices": [
-                75,
-                87
+                107,
+                116
               ],
-              "screen_name": "texashealth",
-              "id_str": "29289157"
+              "screen_name": "Casillic",
+              "id_str": "144231081"
             }
           ]
         },
         "in_reply_to_status_id_str": null,
-        "id": 537750056364171264,
-        "source": "<a href=\"http://bufferapp.com\" rel=\"nofollow\">Buffer<\/a>",
+        "id": 539561253950484480,
+        "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck<\/a>",
         "in_reply_to_user_id_str": null,
         "favorited": false,
         "in_reply_to_status_id": null,
-        "retweet_count": 2,
-        "created_at": "Wed Nov 26 23:29:39 +0000 2014",
+        "retweet_count": 12,
+        "created_at": "Mon Dec 01 23:26:42 +0000 2014",
         "in_reply_to_user_id": null,
-        "favorite_count": 1,
-        "id_str": "537750056364171264",
+        "favorite_count": 6,
+        "id_str": "539561253950484480",
         "place": null,
         "user": {
-          "location": "USA",
+          "location": "Utrecht, The Netherlands",
           "default_profile": false,
-          "profile_background_tile": true,
-          "statuses_count": 7318,
+          "profile_background_tile": false,
+          "statuses_count": 20513,
           "lang": "en",
-          "profile_link_color": "292304",
-          "profile_banner_url": "https://pbs.twimg.com/profile_banners/522791915/1405460615",
-          "id": 522791915,
+          "profile_link_color": "38871B",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/2697713994/1417142456",
+          "id": 2697713994,
           "following": false,
           "protected": false,
           "profile_location": null,
-          "favourites_count": 5446,
+          "favourites_count": 379,
           "profile_text_color": "333333",
-          "description": "Transformational Leader. Research. Outcome evaluation. Process improvement.Husband. Father, RN #STTI. Sports fan.Tweets/opinions are solely my own.",
+          "description": "PhD Chemist/Entrepreneur.Once arrested by President's son in Kara,Togo&sent packing back to Ghana.Many months of equally arresting work in Senegal&Gambia since.",
           "verified": false,
           "contributors_enabled": false,
           "profile_sidebar_border_color": "FFFFFF",
-          "name": "Research Champion",
-          "profile_background_color": "2B5F8A",
-          "created_at": "Tue Mar 13 02:17:18 +0000 2012",
+          "name": "Anthony England",
+          "profile_background_color": "66A67D",
+          "created_at": "Fri Aug 01 08:30:23 +0000 2014",
           "is_translation_enabled": false,
           "default_profile_image": false,
-          "followers_count": 1871,
-          "profile_image_url_https": "https://pbs.twimg.com/profile_images/490675852376416256/9QaqEpbF_normal.jpeg",
+          "followers_count": 1984,
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/538813755438542850/Rx-lo7OV_normal.png",
           "geo_enabled": false,
-          "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/459147360149323776/eWh4A2LN.jpeg",
-          "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/459147360149323776/eWh4A2LN.jpeg",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme15/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme15/bg.png",
           "follow_request_sent": false,
           "entities": {
             "description": {"urls": []},
             "url": {"urls": [{
-              "expanded_url": "http://www.linkedin.com/pub/gary-spalding/48/9aa/769/",
+              "expanded_url": "https://twitter.com/EbolaPhone/status/531443607967105024",
               "indices": [
                 0,
-                22
+                23
               ],
-              "display_url": "linkedin.com/pub/gary-spald\u2026",
-              "url": "http://t.co/VOfcKMLQDy"
+              "display_url": "twitter.com/EbolaPhone/sta\u2026",
+              "url": "https://t.co/zi8ZCVm1Ut"
             }]}
           },
-          "url": "http://t.co/VOfcKMLQDy",
-          "utc_offset": -18000,
-          "time_zone": "Eastern Time (US & Canada)",
+          "url": "https://t.co/zi8ZCVm1Ut",
+          "utc_offset": 3600,
+          "time_zone": "Amsterdam",
           "notifications": false,
-          "profile_use_background_image": true,
-          "friends_count": 1770,
-          "profile_sidebar_fill_color": "EADEAA",
-          "screen_name": "ResearchChamp",
-          "id_str": "522791915",
-          "profile_image_url": "http://pbs.twimg.com/profile_images/490675852376416256/9QaqEpbF_normal.jpeg",
-          "listed_count": 31,
+          "profile_use_background_image": false,
+          "friends_count": 1875,
+          "profile_sidebar_fill_color": "DDEEF6",
+          "screen_name": "EbolaPhone",
+          "id_str": "2697713994",
+          "profile_image_url": "http://pbs.twimg.com/profile_images/538813755438542850/Rx-lo7OV_normal.png",
+          "listed_count": 68,
           "is_translator": false
         },
         "coordinates": null,
@@ -155,196 +274,264 @@
       "entities": {
         "symbols": [],
         "urls": [{
-          "expanded_url": "http://buff.ly/15AKP7v",
+          "expanded_url": "http://virologydownunder.blogspot.com.au/2014/10/its-what-falls-out-of-aerosol-that.html",
+          "indices": [
+            89,
+            111
+          ],
+          "display_url": "virologydownunder.blogspot.com.au/2014/10/its-wh\u2026",
+          "url": "http://t.co/LhqT74Dcoo"
+        }],
+        "hashtags": [{
+          "text": "Ebola",
+          "indices": [
+            16,
+            22
+          ]
+        }],
+        "media": [{
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "resize": "crop",
+              "h": 150
+            },
+            "small": {
+              "w": 340,
+              "resize": "fit",
+              "h": 255
+            },
+            "large": {
+              "w": 1024,
+              "resize": "fit",
+              "h": 770
+            },
+            "medium": {
+              "w": 600,
+              "resize": "fit",
+              "h": 451
+            }
+          },
+          "id": 519645789128105985,
+          "media_url_https": "https://pbs.twimg.com/media/BzYnF44CIAEWLLt.png",
+          "media_url": "http://pbs.twimg.com/media/BzYnF44CIAEWLLt.png",
+          "expanded_url": "http://twitter.com/Casillic/status/519645791556608000/photo/1",
+          "source_status_id_str": "519645791556608000",
           "indices": [
             139,
             140
           ],
-          "display_url": "buff.ly/15AKP7v",
-          "url": "http://t.co/Es7rzAqMlC"
+          "source_status_id": 519645791556608000,
+          "id_str": "519645789128105985",
+          "type": "photo",
+          "display_url": "pic.twitter.com/55PxG039rw",
+          "url": "http://t.co/55PxG039rw"
         }],
-        "hashtags": [
-          {
-            "text": "Ebola",
-            "indices": [
-              46,
-              52
-            ]
-          },
-          {
-            "text": "NursesFightEbola",
-            "indices": [
-              139,
-              140
-            ]
-          }
-        ],
         "user_mentions": [
           {
-            "id": 522791915,
-            "name": "Research Champion",
+            "id": 2697713994,
+            "name": "Anthony England",
             "indices": [
               3,
-              17
+              14
             ],
-            "screen_name": "ResearchChamp",
-            "id_str": "522791915"
+            "screen_name": "EbolaPhone",
+            "id_str": "2697713994"
           },
           {
-            "id": 18935711,
-            "name": "Modern Healthcare",
+            "id": 1352962327,
+            "name": "Ian M Mackay, PhD",
             "indices": [
-              22,
-              36
+              113,
+              122
             ],
-            "screen_name": "modrnhealthcr",
-            "id_str": "18935711"
+            "screen_name": "MackayIM",
+            "id_str": "1352962327"
           },
           {
-            "id": 29289157,
-            "name": "TexasHealthResources",
+            "id": 144231081,
+            "name": "Casillic",
             "indices": [
-              94,
-              106
+              123,
+              132
             ],
-            "screen_name": "texashealth",
-            "id_str": "29289157"
+            "screen_name": "Casillic",
+            "id_str": "144231081"
           }
         ]
       },
-      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client<\/a>",
+      "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck<\/a>",
       "favorited": false,
       "in_reply_to_user_id": null,
-      "retweet_count": 2,
-      "id_str": "538713426856382464",
+      "retweet_count": 12,
+      "id_str": "539598555703705601",
       "user": {
-        "location": "Florida",
-        "default_profile": true,
+        "location": "Maryland",
+        "default_profile": false,
         "profile_background_tile": false,
-        "statuses_count": 20300,
+        "statuses_count": 44652,
         "lang": "en",
-        "profile_link_color": "0084B4",
-        "id": 85505319,
+        "profile_link_color": "595CDE",
+        "id": 20739133,
         "following": false,
         "protected": false,
         "profile_location": null,
-        "favourites_count": 245,
-        "profile_text_color": "333333",
-        "description": "Great grandmother, former lawyer, suffers from Myalgic Encephalomyelitis",
+        "favourites_count": 7116,
+        "profile_text_color": "993333",
+        "description": "Dr. Judy Stone, an internal medicine and infectious disease doctor with a specialty in clinical trials, is the author of the text, Conducting Clinical Research.",
         "verified": false,
         "contributors_enabled": false,
-        "profile_sidebar_border_color": "C0DEED",
-        "name": "Patricia Carter",
-        "profile_background_color": "C0DEED",
-        "created_at": "Tue Oct 27 05:30:56 +0000 2009",
+        "profile_sidebar_border_color": "993333",
+        "name": "Judy Stone",
+        "profile_background_color": "F9E4A3",
+        "created_at": "Fri Feb 13 01:42:07 +0000 2009",
         "is_translation_enabled": false,
         "default_profile_image": false,
-        "followers_count": 379,
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/485777000636755969/TuNzy67S_normal.jpeg",
-        "geo_enabled": false,
-        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "followers_count": 4122,
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/538856195042185216/VlSQ21Ce_normal.png",
+        "geo_enabled": true,
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/199668316/Expertizing_Twitter_bgnd2.jpg",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/199668316/Expertizing_Twitter_bgnd2.jpg",
         "follow_request_sent": false,
         "entities": {
           "description": {"urls": []},
           "url": {"urls": [{
-            "expanded_url": "http://www.mecfsforums.com",
+            "expanded_url": "http://www.conductingclinicalresearch.com",
             "indices": [
               0,
               22
             ],
-            "display_url": "mecfsforums.com",
-            "url": "http://t.co/xFOfy899cQ"
+            "display_url": "conductingclinicalresearch.com",
+            "url": "http://t.co/AYyJfPj6Nr"
           }]}
         },
-        "url": "http://t.co/xFOfy899cQ",
+        "url": "http://t.co/AYyJfPj6Nr",
         "utc_offset": -18000,
         "time_zone": "Eastern Time (US & Canada)",
         "notifications": false,
         "profile_use_background_image": true,
-        "friends_count": 428,
-        "profile_sidebar_fill_color": "DDEEF6",
-        "screen_name": "WDaisyFL",
-        "id_str": "85505319",
-        "profile_image_url": "http://pbs.twimg.com/profile_images/485777000636755969/TuNzy67S_normal.jpeg",
-        "listed_count": 11,
+        "friends_count": 696,
+        "profile_sidebar_fill_color": "E8D499",
+        "screen_name": "DrJudyStone",
+        "id_str": "20739133",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/538856195042185216/VlSQ21Ce_normal.png",
+        "listed_count": 316,
         "is_translator": false
       }
     },
     {
+      "retweeted": false,
+      "in_reply_to_screen_name": null,
+      "possibly_sensitive": false,
+      "truncated": false,
+      "lang": "en",
+      "in_reply_to_status_id_str": null,
+      "id": 539598554906779648,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_status_id": null,
+      "created_at": "Tue Dec 02 01:54:55 +0000 2014",
+      "favorite_count": 0,
+      "place": null,
+      "coordinates": null,
+      "metadata": {
+        "result_type": "recent",
+        "iso_language_code": "en"
+      },
+      "text": "RT @Crof: Liberia: Four more health workers contract #Ebola http://t.co/4COABNTc8N",
+      "contributors": null,
       "retweeted_status": {
         "contributors": null,
-        "text": "No more Ebola cases in Mali after patient cured: president  #Ebola",
+        "text": "Liberia: Four more health workers contract #Ebola http://t.co/4COABNTc8N",
         "geo": null,
         "retweeted": false,
         "in_reply_to_screen_name": null,
+        "possibly_sensitive": false,
         "truncated": false,
         "lang": "en",
         "entities": {
           "symbols": [],
-          "urls": [],
+          "urls": [{
+            "expanded_url": "http://bit.ly/1y7ewnE",
+            "indices": [
+              50,
+              72
+            ],
+            "display_url": "bit.ly/1y7ewnE",
+            "url": "http://t.co/4COABNTc8N"
+          }],
           "hashtags": [{
             "text": "Ebola",
             "indices": [
-              60,
-              66
+              43,
+              49
             ]
           }],
           "user_mentions": []
         },
         "in_reply_to_status_id_str": null,
-        "id": 538713256303411200,
-        "source": "<a href=\"http://twitterfeed.com\" rel=\"nofollow\">twitterfeed<\/a>",
+        "id": 539586043419189248,
+        "source": "<a href=\"https://dev.twitter.com/docs/tfw\" rel=\"nofollow\">Twitter for Websites<\/a>",
         "in_reply_to_user_id_str": null,
         "favorited": false,
         "in_reply_to_status_id": null,
-        "retweet_count": 1,
-        "created_at": "Sat Nov 29 15:17:03 +0000 2014",
+        "retweet_count": 2,
+        "created_at": "Tue Dec 02 01:05:12 +0000 2014",
         "in_reply_to_user_id": null,
-        "favorite_count": 0,
-        "id_str": "538713256303411200",
+        "favorite_count": 1,
+        "id_str": "539586043419189248",
         "place": null,
         "user": {
-          "location": "",
+          "location": "North Vancouver BC",
           "default_profile": false,
           "profile_background_tile": false,
-          "statuses_count": 103,
+          "statuses_count": 44029,
           "lang": "en",
-          "profile_link_color": "FF0000",
-          "profile_banner_url": "https://pbs.twimg.com/profile_banners/2877156481/1414260209",
-          "id": 2877156481,
+          "profile_link_color": "0099B9",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/19042993/1399349501",
+          "id": 19042993,
           "following": false,
           "protected": false,
           "profile_location": null,
-          "favourites_count": 1,
-          "profile_text_color": "333333",
-          "description": "Ebola only",
+          "favourites_count": 20,
+          "profile_text_color": "3C3940",
+          "description": "Retired college teacher and persistent writer (journalism, science fiction, fantasy, regional history, education). Also blogging on a range of subjects.",
           "verified": false,
           "contributors_enabled": false,
-          "profile_sidebar_border_color": "FFFFFF",
-          "name": "EBOLA Channel",
-          "profile_background_color": "FFFFFF",
-          "created_at": "Sat Oct 25 17:52:01 +0000 2014",
+          "profile_sidebar_border_color": "5ED4DC",
+          "name": "Crawford Kilian",
+          "profile_background_color": "0099B9",
+          "created_at": "Thu Jan 15 22:39:28 +0000 2009",
           "is_translation_enabled": false,
           "default_profile_image": false,
-          "followers_count": 2070,
-          "profile_image_url_https": "https://pbs.twimg.com/profile_images/526072813015142401/0Eqi4x1X_normal.png",
+          "followers_count": 3671,
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/378800000643347335/372c922212e26cbfc7cd784e157bbfd5_normal.jpeg",
           "geo_enabled": false,
-          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/618672552/9a7prpkdihxxty89jkwo.jpeg",
+          "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/618672552/9a7prpkdihxxty89jkwo.jpeg",
           "follow_request_sent": false,
-          "entities": {"description": {"urls": []}},
-          "url": null,
-          "utc_offset": -18000,
-          "time_zone": "Eastern Time (US & Canada)",
+          "entities": {
+            "description": {"urls": []},
+            "url": {"urls": [{
+              "expanded_url": "http://crofsblogs.typepad.com/h5n1/",
+              "indices": [
+                0,
+                22
+              ],
+              "display_url": "crofsblogs.typepad.com/h5n1/",
+              "url": "http://t.co/Iail7gwRTh"
+            }]}
+          },
+          "url": "http://t.co/Iail7gwRTh",
+          "utc_offset": -28800,
+          "time_zone": "Pacific Time (US & Canada)",
           "notifications": false,
-          "profile_use_background_image": false,
-          "friends_count": 16,
-          "profile_sidebar_fill_color": "DDEEF6",
-          "screen_name": "EbolaChannel",
-          "id_str": "2877156481",
-          "profile_image_url": "http://pbs.twimg.com/profile_images/526072813015142401/0Eqi4x1X_normal.png",
-          "listed_count": 0,
+          "profile_use_background_image": true,
+          "friends_count": 1050,
+          "profile_sidebar_fill_color": "95E8EC",
+          "screen_name": "Crof",
+          "id_str": "19042993",
+          "profile_image_url": "http://pbs.twimg.com/profile_images/378800000643347335/372c922212e26cbfc7cd784e157bbfd5_normal.jpeg",
+          "listed_count": 226,
           "is_translator": false
         },
         "coordinates": null,
@@ -353,71 +540,65 @@
           "iso_language_code": "en"
         }
       },
-      "contributors": null,
-      "text": "RT @EbolaChannel: No more Ebola cases in Mali after patient cured: president  #Ebola",
       "geo": null,
-      "retweeted": false,
-      "in_reply_to_screen_name": null,
-      "truncated": false,
-      "lang": "en",
       "entities": {
         "symbols": [],
-        "urls": [],
+        "urls": [{
+          "expanded_url": "http://bit.ly/1y7ewnE",
+          "indices": [
+            60,
+            82
+          ],
+          "display_url": "bit.ly/1y7ewnE",
+          "url": "http://t.co/4COABNTc8N"
+        }],
         "hashtags": [{
           "text": "Ebola",
           "indices": [
-            78,
-            84
+            53,
+            59
           ]
         }],
         "user_mentions": [{
-          "id": 2877156481,
-          "name": "EBOLA Channel",
+          "id": 19042993,
+          "name": "Crawford Kilian",
           "indices": [
             3,
-            16
+            8
           ],
-          "screen_name": "EbolaChannel",
-          "id_str": "2877156481"
+          "screen_name": "Crof",
+          "id_str": "19042993"
         }]
       },
-      "in_reply_to_status_id_str": null,
-      "id": 538713425028075522,
-      "source": "<a href=\"http://www.bbotmaker.com/\" rel=\"nofollow\">BBotMaker - Bot à mots-clés<\/a>",
-      "in_reply_to_user_id_str": null,
+      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client<\/a>",
       "favorited": false,
-      "in_reply_to_status_id": null,
-      "retweet_count": 1,
-      "created_at": "Sat Nov 29 15:17:43 +0000 2014",
       "in_reply_to_user_id": null,
-      "favorite_count": 0,
-      "id_str": "538713425028075522",
-      "place": null,
+      "retweet_count": 2,
+      "id_str": "539598554906779648",
       "user": {
         "location": "",
         "default_profile": true,
         "profile_background_tile": false,
-        "statuses_count": 3695,
-        "lang": "nl",
+        "statuses_count": 161484,
+        "lang": "en",
         "profile_link_color": "0084B4",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/2868858581/1415535929",
-        "id": 2868858581,
+        "id": 1486117886,
         "following": false,
         "protected": false,
         "profile_location": null,
-        "favourites_count": 1,
+        "favourites_count": 4052,
         "profile_text_color": "333333",
-        "description": "I love Ebola. I wish I had Ebola.",
+        "description": "Interested in Aerospace, Aviation,  Advanced Technologies, HealthCare Technologies, Competitive Intelligence, Human Capital Solutions",
         "verified": false,
         "contributors_enabled": false,
         "profile_sidebar_border_color": "C0DEED",
-        "name": "Mr. Ebola",
+        "name": "Baronian Consulting",
         "profile_background_color": "C0DEED",
-        "created_at": "Sun Nov 09 12:20:56 +0000 2014",
+        "created_at": "Wed Jun 05 21:52:49 +0000 2013",
         "is_translation_enabled": false,
         "default_profile_image": false,
-        "followers_count": 26,
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/531421782163849216/zBHXPCyj_normal.jpeg",
+        "followers_count": 786,
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/344513261580112136/1bef8d5247ba652c1f6a57a1311172d0_normal.jpeg",
         "geo_enabled": false,
         "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
         "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
@@ -428,23 +609,302 @@
         "time_zone": null,
         "notifications": false,
         "profile_use_background_image": true,
-        "friends_count": 0,
+        "friends_count": 2001,
         "profile_sidebar_fill_color": "DDEEF6",
-        "screen_name": "allaboutebola",
-        "id_str": "2868858581",
-        "profile_image_url": "http://pbs.twimg.com/profile_images/531421782163849216/zBHXPCyj_normal.jpeg",
-        "listed_count": 0,
+        "screen_name": "BaronianConsult",
+        "id_str": "1486117886",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/344513261580112136/1bef8d5247ba652c1f6a57a1311172d0_normal.jpeg",
+        "listed_count": 40,
         "is_translator": false
-      },
+      }
+    },
+    {
+      "retweeted": false,
+      "in_reply_to_screen_name": null,
+      "possibly_sensitive": false,
+      "truncated": false,
+      "lang": "en",
+      "in_reply_to_status_id_str": null,
+      "id": 539598445326385152,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_status_id": null,
+      "created_at": "Tue Dec 02 01:54:29 +0000 2014",
+      "favorite_count": 0,
+      "place": null,
       "coordinates": null,
       "metadata": {
         "result_type": "recent",
         "iso_language_code": "en"
+      },
+      "text": "RT @AboveTopSecret: CDC: More Than 1,400 People in U.S. Being Actively Monitored for Ebola http://t.co/7cckFjrIef #Ebola http://t.co/qavZL7\u2026",
+      "contributors": null,
+      "retweeted_status": {
+        "contributors": null,
+        "text": "CDC: More Than 1,400 People in U.S. Being Actively Monitored for Ebola http://t.co/7cckFjrIef #Ebola http://t.co/qavZL7lqPr",
+        "geo": null,
+        "retweeted": false,
+        "in_reply_to_screen_name": null,
+        "possibly_sensitive": false,
+        "truncated": false,
+        "lang": "en",
+        "entities": {
+          "symbols": [],
+          "urls": [{
+            "expanded_url": "http://goo.gl/SEBshj",
+            "indices": [
+              71,
+              93
+            ],
+            "display_url": "goo.gl/SEBshj",
+            "url": "http://t.co/7cckFjrIef"
+          }],
+          "hashtags": [{
+            "text": "Ebola",
+            "indices": [
+              94,
+              100
+            ]
+          }],
+          "media": [{
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "resize": "crop",
+                "h": 150
+              },
+              "small": {
+                "w": 340,
+                "resize": "fit",
+                "h": 191
+              },
+              "medium": {
+                "w": 600,
+                "resize": "fit",
+                "h": 337
+              },
+              "large": {
+                "w": 640,
+                "resize": "fit",
+                "h": 360
+              }
+            },
+            "id": 539554402739048448,
+            "media_url_https": "https://pbs.twimg.com/media/B3zh3uBCUAAB8Ei.jpg",
+            "media_url": "http://pbs.twimg.com/media/B3zh3uBCUAAB8Ei.jpg",
+            "expanded_url": "http://twitter.com/AboveTopSecret/status/539554403431481345/photo/1",
+            "indices": [
+              101,
+              123
+            ],
+            "id_str": "539554402739048448",
+            "type": "photo",
+            "display_url": "pic.twitter.com/qavZL7lqPr",
+            "url": "http://t.co/qavZL7lqPr"
+          }],
+          "user_mentions": []
+        },
+        "in_reply_to_status_id_str": null,
+        "id": 539554403431481345,
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client<\/a>",
+        "in_reply_to_user_id_str": null,
+        "favorited": false,
+        "in_reply_to_status_id": null,
+        "retweet_count": 14,
+        "created_at": "Mon Dec 01 22:59:28 +0000 2014",
+        "in_reply_to_user_id": null,
+        "favorite_count": 7,
+        "id_str": "539554403431481345",
+        "place": null,
+        "user": {
+          "location": "Online",
+          "default_profile": false,
+          "profile_background_tile": false,
+          "statuses_count": 62619,
+          "lang": "en",
+          "profile_link_color": "206020",
+          "id": 14210021,
+          "following": false,
+          "protected": false,
+          "profile_location": null,
+          "favourites_count": 54,
+          "profile_text_color": "101010",
+          "description": "The biggest and most popular conspiracy theory website.",
+          "verified": false,
+          "contributors_enabled": false,
+          "profile_sidebar_border_color": "203040",
+          "name": "AboveTopSecret",
+          "profile_background_color": "080C10",
+          "created_at": "Mon Mar 24 19:31:16 +0000 2008",
+          "is_translation_enabled": false,
+          "default_profile_image": false,
+          "followers_count": 62266,
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/52048680/twitterlogo2_normal.gif",
+          "geo_enabled": false,
+          "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/149809704/twitterskin.jpg",
+          "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/149809704/twitterskin.jpg",
+          "follow_request_sent": false,
+          "entities": {
+            "description": {"urls": []},
+            "url": {"urls": [{
+              "expanded_url": "http://www.abovetopsecret.com",
+              "indices": [
+                0,
+                22
+              ],
+              "display_url": "abovetopsecret.com",
+              "url": "http://t.co/ZaBQw4fHGD"
+            }]}
+          },
+          "url": "http://t.co/ZaBQw4fHGD",
+          "utc_offset": -18000,
+          "time_zone": "Quito",
+          "notifications": false,
+          "profile_use_background_image": true,
+          "friends_count": 388,
+          "profile_sidebar_fill_color": "999999",
+          "screen_name": "AboveTopSecret",
+          "id_str": "14210021",
+          "profile_image_url": "http://pbs.twimg.com/profile_images/52048680/twitterlogo2_normal.gif",
+          "listed_count": 1383,
+          "is_translator": false
+        },
+        "coordinates": null,
+        "metadata": {
+          "result_type": "recent",
+          "iso_language_code": "en"
+        }
+      },
+      "geo": null,
+      "entities": {
+        "symbols": [],
+        "urls": [{
+          "expanded_url": "http://goo.gl/SEBshj",
+          "indices": [
+            91,
+            113
+          ],
+          "display_url": "goo.gl/SEBshj",
+          "url": "http://t.co/7cckFjrIef"
+        }],
+        "hashtags": [{
+          "text": "Ebola",
+          "indices": [
+            114,
+            120
+          ]
+        }],
+        "media": [{
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "resize": "crop",
+              "h": 150
+            },
+            "small": {
+              "w": 340,
+              "resize": "fit",
+              "h": 191
+            },
+            "medium": {
+              "w": 600,
+              "resize": "fit",
+              "h": 337
+            },
+            "large": {
+              "w": 640,
+              "resize": "fit",
+              "h": 360
+            }
+          },
+          "id": 539554402739048448,
+          "media_url_https": "https://pbs.twimg.com/media/B3zh3uBCUAAB8Ei.jpg",
+          "media_url": "http://pbs.twimg.com/media/B3zh3uBCUAAB8Ei.jpg",
+          "expanded_url": "http://twitter.com/AboveTopSecret/status/539554403431481345/photo/1",
+          "source_status_id_str": "539554403431481345",
+          "indices": [
+            139,
+            140
+          ],
+          "source_status_id": 539554403431481345,
+          "id_str": "539554402739048448",
+          "type": "photo",
+          "display_url": "pic.twitter.com/qavZL7lqPr",
+          "url": "http://t.co/qavZL7lqPr"
+        }],
+        "user_mentions": [{
+          "id": 14210021,
+          "name": "AboveTopSecret",
+          "indices": [
+            3,
+            18
+          ],
+          "screen_name": "AboveTopSecret",
+          "id_str": "14210021"
+        }]
+      },
+      "source": "<a href=\"http://www.myplume.com/\" rel=\"nofollow\">Plume for Android<\/a>",
+      "favorited": false,
+      "in_reply_to_user_id": null,
+      "retweet_count": 14,
+      "id_str": "539598445326385152",
+      "user": {
+        "location": "Obola Nation",
+        "default_profile": false,
+        "profile_background_tile": true,
+        "statuses_count": 10257,
+        "lang": "en",
+        "profile_link_color": "2FC2EF",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/143227517/1395869603",
+        "id": 143227517,
+        "following": false,
+        "protected": false,
+        "profile_location": null,
+        "favourites_count": 31,
+        "profile_text_color": "666666",
+        "description": "1776 is the answer to 1984. proactive, reactive. solace found where in darkness reigns",
+        "verified": false,
+        "contributors_enabled": false,
+        "profile_sidebar_border_color": "181A1E",
+        "name": "Aphotic Obola Solace",
+        "profile_background_color": "1A1B1F",
+        "created_at": "Wed May 12 23:10:28 +0000 2010",
+        "is_translation_enabled": false,
+        "default_profile_image": false,
+        "followers_count": 637,
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/378800000610926973/e88aafd3211be1dc42cfbbf541bce467_normal.jpeg",
+        "geo_enabled": false,
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/100942149/Black-Sun-web.jpg",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/100942149/Black-Sun-web.jpg",
+        "follow_request_sent": false,
+        "entities": {
+          "description": {"urls": []},
+          "url": {"urls": [{
+            "expanded_url": "http://picasaweb.google.com/brugmansia.sanguinea/Abstractum#",
+            "indices": [
+              0,
+              22
+            ],
+            "display_url": "picasaweb.google.com/brugmansia.san\u2026",
+            "url": "http://t.co/zDLidVtLY0"
+          }]}
+        },
+        "url": "http://t.co/zDLidVtLY0",
+        "utc_offset": -21600,
+        "time_zone": "Central Time (US & Canada)",
+        "notifications": false,
+        "profile_use_background_image": true,
+        "friends_count": 977,
+        "profile_sidebar_fill_color": "252429",
+        "screen_name": "AphoticSolace",
+        "id_str": "143227517",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/378800000610926973/e88aafd3211be1dc42cfbbf541bce467_normal.jpeg",
+        "listed_count": 11,
+        "is_translator": false
       }
     },
     {
       "contributors": null,
-      "text": "No more Ebola cases in Mali after patient cured: president  #Ebola",
+      "text": "via abpnewstv  song has been released on #Ebola in #Liberia   \n@who @un",
       "geo": null,
       "retweeted": false,
       "in_reply_to_screen_name": null,
@@ -453,1009 +913,220 @@
       "entities": {
         "symbols": [],
         "urls": [],
-        "hashtags": [{
-          "text": "Ebola",
-          "indices": [
-            60,
-            66
-          ]
-        }],
-        "user_mentions": []
-      },
-      "in_reply_to_status_id_str": null,
-      "id": 538713256303411200,
-      "source": "<a href=\"http://twitterfeed.com\" rel=\"nofollow\">twitterfeed<\/a>",
-      "in_reply_to_user_id_str": null,
-      "favorited": false,
-      "in_reply_to_status_id": null,
-      "retweet_count": 1,
-      "created_at": "Sat Nov 29 15:17:03 +0000 2014",
-      "in_reply_to_user_id": null,
-      "favorite_count": 0,
-      "id_str": "538713256303411200",
-      "place": null,
-      "user": {
-        "location": "",
-        "default_profile": false,
-        "profile_background_tile": false,
-        "statuses_count": 103,
-        "lang": "en",
-        "profile_link_color": "FF0000",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/2877156481/1414260209",
-        "id": 2877156481,
-        "following": false,
-        "protected": false,
-        "profile_location": null,
-        "favourites_count": 1,
-        "profile_text_color": "333333",
-        "description": "Ebola only",
-        "verified": false,
-        "contributors_enabled": false,
-        "profile_sidebar_border_color": "FFFFFF",
-        "name": "EBOLA Channel",
-        "profile_background_color": "FFFFFF",
-        "created_at": "Sat Oct 25 17:52:01 +0000 2014",
-        "is_translation_enabled": false,
-        "default_profile_image": false,
-        "followers_count": 2070,
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/526072813015142401/0Eqi4x1X_normal.png",
-        "geo_enabled": false,
-        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-        "follow_request_sent": false,
-        "entities": {"description": {"urls": []}},
-        "url": null,
-        "utc_offset": -18000,
-        "time_zone": "Eastern Time (US & Canada)",
-        "notifications": false,
-        "profile_use_background_image": false,
-        "friends_count": 16,
-        "profile_sidebar_fill_color": "DDEEF6",
-        "screen_name": "EbolaChannel",
-        "id_str": "2877156481",
-        "profile_image_url": "http://pbs.twimg.com/profile_images/526072813015142401/0Eqi4x1X_normal.png",
-        "listed_count": 0,
-        "is_translator": false
-      },
-      "coordinates": null,
-      "metadata": {
-        "result_type": "recent",
-        "iso_language_code": "en"
-      }
-    },
-    {
-      "retweeted": false,
-      "in_reply_to_screen_name": null,
-      "possibly_sensitive": false,
-      "truncated": false,
-      "lang": "en",
-      "in_reply_to_status_id_str": null,
-      "id": 538713043564507136,
-      "in_reply_to_user_id_str": null,
-      "in_reply_to_status_id": null,
-      "created_at": "Sat Nov 29 15:16:13 +0000 2014",
-      "favorite_count": 0,
-      "place": null,
-      "coordinates": null,
-      "metadata": {
-        "result_type": "recent",
-        "iso_language_code": "en"
-      },
-      "text": "RT @EveningChron: Two children tested for #Ebola in #Newcastle have been given the all-clear http://t.co/dVMQK1P0vQ http://t.co/yLFMtGSeS6",
-      "contributors": null,
-      "retweeted_status": {
-        "contributors": null,
-        "text": "Two children tested for #Ebola in #Newcastle have been given the all-clear http://t.co/dVMQK1P0vQ http://t.co/yLFMtGSeS6",
-        "geo": null,
-        "retweeted": false,
-        "in_reply_to_screen_name": null,
-        "possibly_sensitive": false,
-        "truncated": false,
-        "lang": "en",
-        "entities": {
-          "symbols": [],
-          "urls": [{
-            "expanded_url": "http://bit.ly/1tpWlYD",
-            "indices": [
-              75,
-              97
-            ],
-            "display_url": "bit.ly/1tpWlYD",
-            "url": "http://t.co/dVMQK1P0vQ"
-          }],
-          "hashtags": [
-            {
-              "text": "Ebola",
-              "indices": [
-                24,
-                30
-              ]
-            },
-            {
-              "text": "Newcastle",
-              "indices": [
-                34,
-                44
-              ]
-            }
-          ],
-          "media": [{
-            "sizes": {
-              "thumb": {
-                "w": 150,
-                "resize": "crop",
-                "h": 150
-              },
-              "small": {
-                "w": 340,
-                "resize": "fit",
-                "h": 226
-              },
-              "large": {
-                "w": 615,
-                "resize": "fit",
-                "h": 409
-              },
-              "medium": {
-                "w": 600,
-                "resize": "fit",
-                "h": 399
-              }
-            },
-            "id": 538712762382172161,
-            "media_url_https": "https://pbs.twimg.com/media/B3nkZzXCQAE1QAw.jpg",
-            "media_url": "http://pbs.twimg.com/media/B3nkZzXCQAE1QAw.jpg",
-            "expanded_url": "http://twitter.com/EveningChron/status/538712784285216769/photo/1",
-            "indices": [
-              98,
-              120
-            ],
-            "id_str": "538712762382172161",
-            "type": "photo",
-            "display_url": "pic.twitter.com/yLFMtGSeS6",
-            "url": "http://t.co/yLFMtGSeS6"
-          }],
-          "user_mentions": []
-        },
-        "in_reply_to_status_id_str": null,
-        "id": 538712784285216769,
-        "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck<\/a>",
-        "in_reply_to_user_id_str": null,
-        "favorited": false,
-        "in_reply_to_status_id": null,
-        "retweet_count": 1,
-        "created_at": "Sat Nov 29 15:15:11 +0000 2014",
-        "in_reply_to_user_id": null,
-        "favorite_count": 0,
-        "id_str": "538712784285216769",
-        "place": null,
-        "user": {
-          "location": "Newcastle upon Tyne, UK",
-          "default_profile": false,
-          "profile_background_tile": true,
-          "statuses_count": 49012,
-          "lang": "en",
-          "profile_link_color": "006699",
-          "profile_banner_url": "https://pbs.twimg.com/profile_banners/19907085/1415873575",
-          "id": 19907085,
-          "following": false,
-          "protected": false,
-          "profile_location": null,
-          "favourites_count": 1044,
-          "profile_text_color": "000000",
-          "description": "Latest North East news, sport, NUFC and Gateshead news, weather and events from The Chronicle newspaper in Newcastle. Facebook http://t.co/O5wDTI66hL",
-          "verified": true,
-          "contributors_enabled": false,
-          "profile_sidebar_border_color": "FFFFFF",
-          "name": "The Chronicle",
-          "profile_background_color": "9AE4E8",
-          "created_at": "Mon Feb 02 13:49:37 +0000 2009",
-          "is_translation_enabled": false,
-          "default_profile_image": false,
-          "followers_count": 50193,
-          "profile_image_url_https": "https://pbs.twimg.com/profile_images/532837973436289025/psPAhvLk_normal.jpeg",
-          "geo_enabled": true,
-          "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/829700433/28fb6b45deb6b63385d023091a149fe5.jpeg",
-          "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/829700433/28fb6b45deb6b63385d023091a149fe5.jpeg",
-          "follow_request_sent": false,
-          "entities": {
-            "description": {"urls": [{
-              "expanded_url": "http://fb.me/NewcastleChronicle",
-              "indices": [
-                127,
-                149
-              ],
-              "display_url": "fb.me/NewcastleChron\u2026",
-              "url": "http://t.co/O5wDTI66hL"
-            }]},
-            "url": {"urls": [{
-              "expanded_url": "http://www.chroniclelive.co.uk",
-              "indices": [
-                0,
-                22
-              ],
-              "display_url": "chroniclelive.co.uk",
-              "url": "http://t.co/McxouiRvTv"
-            }]}
-          },
-          "url": "http://t.co/McxouiRvTv",
-          "utc_offset": 0,
-          "time_zone": "London",
-          "notifications": false,
-          "profile_use_background_image": true,
-          "friends_count": 1180,
-          "profile_sidebar_fill_color": "F3F3F1",
-          "screen_name": "EveningChron",
-          "id_str": "19907085",
-          "profile_image_url": "http://pbs.twimg.com/profile_images/532837973436289025/psPAhvLk_normal.jpeg",
-          "listed_count": 392,
-          "is_translator": false
-        },
-        "coordinates": null,
-        "metadata": {
-          "result_type": "recent",
-          "iso_language_code": "en"
-        }
-      },
-      "geo": null,
-      "entities": {
-        "symbols": [],
-        "urls": [{
-          "expanded_url": "http://bit.ly/1tpWlYD",
-          "indices": [
-            93,
-            115
-          ],
-          "display_url": "bit.ly/1tpWlYD",
-          "url": "http://t.co/dVMQK1P0vQ"
-        }],
         "hashtags": [
           {
             "text": "Ebola",
             "indices": [
-              42,
-              48
+              41,
+              47
             ]
           },
           {
-            "text": "Newcastle",
+            "text": "Liberia",
             "indices": [
-              52,
-              62
+              51,
+              59
             ]
           }
         ],
-        "media": [{
-          "sizes": {
-            "thumb": {
-              "w": 150,
-              "resize": "crop",
-              "h": 150
-            },
-            "small": {
-              "w": 340,
-              "resize": "fit",
-              "h": 226
-            },
-            "large": {
-              "w": 615,
-              "resize": "fit",
-              "h": 409
-            },
-            "medium": {
-              "w": 600,
-              "resize": "fit",
-              "h": 399
-            }
+        "user_mentions": [
+          {
+            "id": 14499829,
+            "name": "WHO",
+            "indices": [
+              63,
+              67
+            ],
+            "screen_name": "WHO",
+            "id_str": "14499829"
           },
-          "id": 538712762382172161,
-          "media_url_https": "https://pbs.twimg.com/media/B3nkZzXCQAE1QAw.jpg",
-          "media_url": "http://pbs.twimg.com/media/B3nkZzXCQAE1QAw.jpg",
-          "expanded_url": "http://twitter.com/EveningChron/status/538712784285216769/photo/1",
-          "source_status_id_str": "538712784285216769",
-          "indices": [
-            116,
-            138
-          ],
-          "source_status_id": 538712784285216769,
-          "id_str": "538712762382172161",
-          "type": "photo",
-          "display_url": "pic.twitter.com/yLFMtGSeS6",
-          "url": "http://t.co/yLFMtGSeS6"
-        }],
-        "user_mentions": [{
-          "id": 19907085,
-          "name": "The Chronicle",
-          "indices": [
-            3,
-            16
-          ],
-          "screen_name": "EveningChron",
-          "id_str": "19907085"
-        }]
+          {
+            "id": 14159148,
+            "name": "United Nations",
+            "indices": [
+              68,
+              71
+            ],
+            "screen_name": "UN",
+            "id_str": "14159148"
+          }
+        ]
       },
-      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android<\/a>",
+      "in_reply_to_status_id_str": null,
+      "id": 539598329756143616,
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Mobile Web (M2)<\/a>",
+      "in_reply_to_user_id_str": null,
       "favorited": false,
+      "in_reply_to_status_id": null,
+      "retweet_count": 0,
+      "created_at": "Tue Dec 02 01:54:01 +0000 2014",
       "in_reply_to_user_id": null,
-      "retweet_count": 1,
-      "id_str": "538713043564507136",
+      "favorite_count": 0,
+      "id_str": "539598329756143616",
+      "place": null,
       "user": {
-        "location": "",
+        "location": "BHARAT, HINDUSTAN",
         "default_profile": true,
         "profile_background_tile": false,
-        "statuses_count": 9252,
+        "statuses_count": 3909,
         "lang": "en",
         "profile_link_color": "0084B4",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/29179410/1376635146",
-        "id": 29179410,
+        "id": 2700129176,
         "following": false,
         "protected": false,
         "profile_location": null,
-        "favourites_count": 1047,
+        "favourites_count": 335,
         "profile_text_color": "333333",
-        "description": "I'm a wife ,mother and a gran,  i'm also me.\r\nSpammers not welcome on my timeline, i will block!!",
+        "description": "Hindstani,but not necessarily HINDU Wounded Lion , Retweets not endorsed",
         "verified": false,
         "contributors_enabled": false,
         "profile_sidebar_border_color": "C0DEED",
-        "name": "marie knowles",
+        "name": "KaranDeep",
         "profile_background_color": "C0DEED",
-        "created_at": "Mon Apr 06 10:55:29 +0000 2009",
+        "created_at": "Sat Aug 02 06:35:38 +0000 2014",
         "is_translation_enabled": false,
         "default_profile_image": false,
-        "followers_count": 206,
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/378800000306345592/41a3b500a8056adce3a8d4f76b96a7aa_normal.jpeg",
+        "followers_count": 1517,
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/536175426016518145/5KlCx70m_normal.jpeg",
         "geo_enabled": false,
         "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
         "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
         "follow_request_sent": false,
         "entities": {"description": {"urls": []}},
         "url": null,
-        "utc_offset": 0,
-        "time_zone": "London",
+        "utc_offset": null,
+        "time_zone": null,
         "notifications": false,
         "profile_use_background_image": true,
-        "friends_count": 316,
+        "friends_count": 2001,
         "profile_sidebar_fill_color": "DDEEF6",
-        "screen_name": "MadAmethyst",
-        "id_str": "29179410",
-        "profile_image_url": "http://pbs.twimg.com/profile_images/378800000306345592/41a3b500a8056adce3a8d4f76b96a7aa_normal.jpeg",
-        "listed_count": 0,
+        "screen_name": "karandeep1",
+        "id_str": "2700129176",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/536175426016518145/5KlCx70m_normal.jpeg",
+        "listed_count": 3,
         "is_translator": false
-      }
-    },
-    {
-      "retweeted": false,
-      "in_reply_to_screen_name": null,
-      "possibly_sensitive": false,
-      "truncated": false,
-      "lang": "en",
-      "in_reply_to_status_id_str": null,
-      "id": 538713030394380289,
-      "in_reply_to_user_id_str": null,
-      "in_reply_to_status_id": null,
-      "created_at": "Sat Nov 29 15:16:09 +0000 2014",
-      "favorite_count": 0,
-      "place": null,
+      },
       "coordinates": null,
       "metadata": {
         "result_type": "recent",
         "iso_language_code": "en"
-      },
-      "text": "RT @CDCgov: Top 10 Things You Really Need to Know About #Ebola: #2 It only spreads once symptoms begin. http://t.co/VfdFJF3Qof http://t.co/\u2026",
-      "contributors": null,
-      "retweeted_status": {
-        "contributors": null,
-        "text": "Top 10 Things You Really Need to Know About #Ebola: #2 It only spreads once symptoms begin. http://t.co/VfdFJF3Qof http://t.co/O7GEuGhdzt",
-        "geo": null,
-        "retweeted": false,
-        "in_reply_to_screen_name": null,
-        "possibly_sensitive": false,
-        "truncated": false,
-        "lang": "en",
-        "entities": {
-          "symbols": [],
-          "urls": [{
-            "expanded_url": "http://1.usa.gov/11HNriq",
-            "indices": [
-              92,
-              114
-            ],
-            "display_url": "1.usa.gov/11HNriq",
-            "url": "http://t.co/VfdFJF3Qof"
-          }],
-          "hashtags": [{
-            "text": "Ebola",
-            "indices": [
-              44,
-              50
-            ]
-          }],
-          "media": [{
-            "sizes": {
-              "thumb": {
-                "w": 150,
-                "resize": "crop",
-                "h": 150
-              },
-              "small": {
-                "w": 340,
-                "resize": "fit",
-                "h": 186
-              },
-              "large": {
-                "w": 580,
-                "resize": "fit",
-                "h": 318
-              },
-              "medium": {
-                "w": 580,
-                "resize": "fit",
-                "h": 318
-              }
-            },
-            "id": 537350986650497024,
-            "media_url_https": "https://pbs.twimg.com/media/B3UN4BcCMAA_hgy.jpg",
-            "media_url": "http://pbs.twimg.com/media/B3UN4BcCMAA_hgy.jpg",
-            "expanded_url": "http://twitter.com/CDCgov/status/537350987158405121/photo/1",
-            "indices": [
-              115,
-              137
-            ],
-            "id_str": "537350986650497024",
-            "type": "photo",
-            "display_url": "pic.twitter.com/O7GEuGhdzt",
-            "url": "http://t.co/O7GEuGhdzt"
-          }],
-          "user_mentions": []
-        },
-        "in_reply_to_status_id_str": null,
-        "id": 537350987158405121,
-        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client<\/a>",
-        "in_reply_to_user_id_str": null,
-        "favorited": false,
-        "in_reply_to_status_id": null,
-        "retweet_count": 153,
-        "created_at": "Tue Nov 25 21:03:53 +0000 2014",
-        "in_reply_to_user_id": null,
-        "favorite_count": 55,
-        "id_str": "537350987158405121",
-        "place": null,
-        "user": {
-          "location": "Atlanta, GA",
-          "default_profile": false,
-          "profile_background_tile": false,
-          "statuses_count": 11066,
-          "lang": "en",
-          "profile_link_color": "0084B4",
-          "profile_banner_url": "https://pbs.twimg.com/profile_banners/146569971/1411483479",
-          "id": 146569971,
-          "following": false,
-          "protected": false,
-          "profile_location": null,
-          "favourites_count": 89,
-          "profile_text_color": "333333",
-          "description": "CDC's official Twitter source for daily credible health & safety updates f/ Centers for Disease Control & Prevention. Privacy policy http://t.co/nTOTJDCRyO",
-          "verified": true,
-          "contributors_enabled": false,
-          "profile_sidebar_border_color": "FFFFFF",
-          "name": "CDC",
-          "profile_background_color": "C0DEED",
-          "created_at": "Fri May 21 19:40:40 +0000 2010",
-          "is_translation_enabled": false,
-          "default_profile_image": false,
-          "followers_count": 442600,
-          "profile_image_url_https": "https://pbs.twimg.com/profile_images/447192716221218818/AJ__Nd3C_normal.png",
-          "geo_enabled": false,
-          "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/703525704/4ffb919c21e697be1d3a25d778705577.jpeg",
-          "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/703525704/4ffb919c21e697be1d3a25d778705577.jpeg",
-          "follow_request_sent": false,
-          "entities": {
-            "description": {"urls": [{
-              "expanded_url": "http://go.usa.gov/8Ea",
-              "indices": [
-                133,
-                155
-              ],
-              "display_url": "go.usa.gov/8Ea",
-              "url": "http://t.co/nTOTJDCRyO"
-            }]},
-            "url": {"urls": [{
-              "expanded_url": "http://www.cdc.gov",
-              "indices": [
-                0,
-                22
-              ],
-              "display_url": "cdc.gov",
-              "url": "http://t.co/5a7cTu2vly"
-            }]}
-          },
-          "url": "http://t.co/5a7cTu2vly",
-          "utc_offset": -18000,
-          "time_zone": "Eastern Time (US & Canada)",
-          "notifications": false,
-          "profile_use_background_image": true,
-          "friends_count": 244,
-          "profile_sidebar_fill_color": "DDEEF6",
-          "screen_name": "CDCgov",
-          "id_str": "146569971",
-          "profile_image_url": "http://pbs.twimg.com/profile_images/447192716221218818/AJ__Nd3C_normal.png",
-          "listed_count": 7388,
-          "is_translator": false
-        },
-        "coordinates": null,
-        "metadata": {
-          "result_type": "recent",
-          "iso_language_code": "en"
-        }
-      },
-      "geo": null,
-      "entities": {
-        "symbols": [],
-        "urls": [{
-          "expanded_url": "http://1.usa.gov/11HNriq",
-          "indices": [
-            104,
-            126
-          ],
-          "display_url": "1.usa.gov/11HNriq",
-          "url": "http://t.co/VfdFJF3Qof"
-        }],
-        "hashtags": [{
-          "text": "Ebola",
-          "indices": [
-            56,
-            62
-          ]
-        }],
-        "media": [{
-          "sizes": {
-            "thumb": {
-              "w": 150,
-              "resize": "crop",
-              "h": 150
-            },
-            "small": {
-              "w": 340,
-              "resize": "fit",
-              "h": 186
-            },
-            "large": {
-              "w": 580,
-              "resize": "fit",
-              "h": 318
-            },
-            "medium": {
-              "w": 580,
-              "resize": "fit",
-              "h": 318
-            }
-          },
-          "id": 537350986650497024,
-          "media_url_https": "https://pbs.twimg.com/media/B3UN4BcCMAA_hgy.jpg",
-          "media_url": "http://pbs.twimg.com/media/B3UN4BcCMAA_hgy.jpg",
-          "expanded_url": "http://twitter.com/CDCgov/status/537350987158405121/photo/1",
-          "source_status_id_str": "537350987158405121",
-          "indices": [
-            139,
-            140
-          ],
-          "source_status_id": 537350987158405121,
-          "id_str": "537350986650497024",
-          "type": "photo",
-          "display_url": "pic.twitter.com/O7GEuGhdzt",
-          "url": "http://t.co/O7GEuGhdzt"
-        }],
-        "user_mentions": [{
-          "id": 146569971,
-          "name": "CDC",
-          "indices": [
-            3,
-            10
-          ],
-          "screen_name": "CDCgov",
-          "id_str": "146569971"
-        }]
-      },
-      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client<\/a>",
-      "favorited": false,
-      "in_reply_to_user_id": null,
-      "retweet_count": 153,
-      "id_str": "538713030394380289",
-      "user": {
-        "location": "",
-        "default_profile": false,
-        "profile_background_tile": false,
-        "statuses_count": 5534,
-        "lang": "en",
-        "profile_link_color": "0099B9",
-        "id": 362850734,
-        "following": false,
-        "protected": false,
-        "profile_location": null,
-        "favourites_count": 0,
-        "profile_text_color": "3C3940",
-        "description": "Eukaryota, Animalia, Chordata, Mammalia, Primates, Hominidae, Homo, occasionally sapiens",
-        "verified": false,
-        "contributors_enabled": false,
-        "profile_sidebar_border_color": "5ED4DC",
-        "name": "Michael Totten",
-        "profile_background_color": "0099B9",
-        "created_at": "Sat Aug 27 02:47:40 +0000 2011",
-        "is_translation_enabled": false,
-        "default_profile_image": false,
-        "followers_count": 33,
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1546406245/Pale_Blue_Dot_normal.png",
-        "geo_enabled": false,
-        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme4/bg.gif",
-        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme4/bg.gif",
-        "follow_request_sent": false,
-        "entities": {
-          "description": {"urls": []},
-          "url": {"urls": [{
-            "expanded_url": "http://www.insidetechnology360.com/index.php/how-to-keep-from-wasting-time-on-the-web-2-13096/",
-            "indices": [
-              0,
-              22
-            ],
-            "display_url": "insidetechnology360.com/index.php/how-\u2026",
-            "url": "http://t.co/QIlSESPNu5"
-          }]}
-        },
-        "url": "http://t.co/QIlSESPNu5",
-        "utc_offset": 0,
-        "time_zone": "London",
-        "notifications": false,
-        "profile_use_background_image": true,
-        "friends_count": 38,
-        "profile_sidebar_fill_color": "95E8EC",
-        "screen_name": "Michael_Totten",
-        "id_str": "362850734",
-        "profile_image_url": "http://pbs.twimg.com/profile_images/1546406245/Pale_Blue_Dot_normal.png",
-        "listed_count": 5,
-        "is_translator": false
-      }
-    },
-    {
-      "retweeted": false,
-      "in_reply_to_screen_name": null,
-      "possibly_sensitive": false,
-      "truncated": false,
-      "lang": "en",
-      "in_reply_to_status_id_str": null,
-      "id": 538713019665375232,
-      "in_reply_to_user_id_str": null,
-      "in_reply_to_status_id": null,
-      "created_at": "Sat Nov 29 15:16:07 +0000 2014",
-      "favorite_count": 0,
-      "place": null,
-      "coordinates": null,
-      "metadata": {
-        "result_type": "recent",
-        "iso_language_code": "en"
-      },
-      "text": "RT @NewsonEbola: #Ebola #EbolaOutbreak Ebola cases near 16,000, Sierra Leone to overtake Liberia soon with most cases - WHO http://t.co/V3t\u2026",
-      "contributors": null,
-      "retweeted_status": {
-        "contributors": null,
-        "text": "#Ebola #EbolaOutbreak Ebola cases near 16,000, Sierra Leone to overtake Liberia soon with most cases - WHO http://t.co/V3tccGfFwI",
-        "geo": null,
-        "retweeted": false,
-        "in_reply_to_screen_name": null,
-        "possibly_sensitive": false,
-        "truncated": false,
-        "lang": "en",
-        "entities": {
-          "symbols": [],
-          "urls": [{
-            "expanded_url": "http://plutodaily.com/ebola-cases-near-16000-sierra-leone-to-overtake-liberia-soon-with-most-cases-who/",
-            "indices": [
-              107,
-              129
-            ],
-            "display_url": "plutodaily.com/ebola-cases-ne\u2026",
-            "url": "http://t.co/V3tccGfFwI"
-          }],
-          "hashtags": [
-            {
-              "text": "Ebola",
-              "indices": [
-                0,
-                6
-              ]
-            },
-            {
-              "text": "EbolaOutbreak",
-              "indices": [
-                7,
-                21
-              ]
-            }
-          ],
-          "user_mentions": []
-        },
-        "in_reply_to_status_id_str": null,
-        "id": 538574727770423297,
-        "source": "<a href=\"http://www.leavingworkbehind.com\" rel=\"nofollow\">Evergreen Post Tweeter<\/a>",
-        "in_reply_to_user_id_str": null,
-        "favorited": false,
-        "in_reply_to_status_id": null,
-        "retweet_count": 3,
-        "created_at": "Sat Nov 29 06:06:35 +0000 2014",
-        "in_reply_to_user_id": null,
-        "favorite_count": 1,
-        "id_str": "538574727770423297",
-        "place": null,
-        "user": {
-          "location": "USA",
-          "default_profile": false,
-          "profile_background_tile": false,
-          "statuses_count": 2606,
-          "lang": "en",
-          "profile_link_color": "0099CC",
-          "id": 2488977445,
-          "following": false,
-          "protected": false,
-          "profile_location": null,
-          "favourites_count": 61,
-          "profile_text_color": "333333",
-          "description": "Scientist Dan Mulllin--Now reportingLive Updates on the Ebola Outbreak--writer @PlutoDaily",
-          "verified": false,
-          "contributors_enabled": false,
-          "profile_sidebar_border_color": "FFF8AD",
-          "name": "News on Ebola",
-          "profile_background_color": "FFF04D",
-          "created_at": "Sat May 10 23:31:03 +0000 2014",
-          "is_translation_enabled": false,
-          "default_profile_image": false,
-          "followers_count": 439,
-          "profile_image_url_https": "https://pbs.twimg.com/profile_images/507808622101803008/VpU1Qcn8_normal.png",
-          "geo_enabled": false,
-          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme19/bg.gif",
-          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme19/bg.gif",
-          "follow_request_sent": false,
-          "entities": {
-            "description": {"urls": []},
-            "url": {"urls": [{
-              "expanded_url": "http://PlutoDaily.com",
-              "indices": [
-                0,
-                22
-              ],
-              "display_url": "PlutoDaily.com",
-              "url": "http://t.co/ikSZ4C5PxC"
-            }]}
-          },
-          "url": "http://t.co/ikSZ4C5PxC",
-          "utc_offset": -18000,
-          "time_zone": "Eastern Time (US & Canada)",
-          "notifications": false,
-          "profile_use_background_image": true,
-          "friends_count": 707,
-          "profile_sidebar_fill_color": "F6FFD1",
-          "screen_name": "NewsonEbola",
-          "id_str": "2488977445",
-          "profile_image_url": "http://pbs.twimg.com/profile_images/507808622101803008/VpU1Qcn8_normal.png",
-          "listed_count": 9,
-          "is_translator": false
-        },
-        "coordinates": null,
-        "metadata": {
-          "result_type": "recent",
-          "iso_language_code": "en"
-        }
-      },
-      "geo": null,
-      "entities": {
-        "symbols": [],
-        "urls": [{
-          "expanded_url": "http://plutodaily.com/ebola-cases-near-16000-sierra-leone-to-overtake-liberia-soon-with-most-cases-who/",
-          "indices": [
-            139,
-            140
-          ],
-          "display_url": "plutodaily.com/ebola-cases-ne\u2026",
-          "url": "http://t.co/V3tccGfFwI"
-        }],
-        "hashtags": [
-          {
-            "text": "Ebola",
-            "indices": [
-              17,
-              23
-            ]
-          },
-          {
-            "text": "EbolaOutbreak",
-            "indices": [
-              24,
-              38
-            ]
-          }
-        ],
-        "user_mentions": [{
-          "id": 2488977445,
-          "name": "News on Ebola",
-          "indices": [
-            3,
-            15
-          ],
-          "screen_name": "NewsonEbola",
-          "id_str": "2488977445"
-        }]
-      },
-      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client<\/a>",
-      "favorited": false,
-      "in_reply_to_user_id": null,
-      "retweet_count": 3,
-      "id_str": "538713019665375232",
-      "user": {
-        "location": "Appalachian Mountains Kentucky",
-        "default_profile": false,
-        "profile_background_tile": true,
-        "statuses_count": 2621,
-        "lang": "en",
-        "profile_link_color": "DD2E44",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/121756495/1392179502",
-        "id": 121756495,
-        "following": false,
-        "protected": false,
-        "profile_location": null,
-        "favourites_count": 572,
-        "profile_text_color": "000000",
-        "description": "Fisherman - Builder - Pharmacist - Photography - #UKWildcat Alumni & Fan - NOT promoting by RT",
-        "verified": false,
-        "contributors_enabled": false,
-        "profile_sidebar_border_color": "000000",
-        "name": "Ebola 2014",
-        "profile_background_color": "000000",
-        "created_at": "Wed Mar 10 13:50:02 +0000 2010",
-        "is_translation_enabled": false,
-        "default_profile_image": false,
-        "followers_count": 813,
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/534544864503799808/zBGqt3B9_normal.jpeg",
-        "geo_enabled": false,
-        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/517656746865590274/bf1NbUUc.jpeg",
-        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/517656746865590274/bf1NbUUc.jpeg",
-        "follow_request_sent": false,
-        "entities": {
-          "description": {"urls": []},
-          "url": {"urls": [{
-            "expanded_url": "http://instagram.com/kgwabbit",
-            "indices": [
-              0,
-              22
-            ],
-            "display_url": "instagram.com/kgwabbit",
-            "url": "http://t.co/reqCVzhIBc"
-          }]}
-        },
-        "url": "http://t.co/reqCVzhIBc",
-        "utc_offset": -18000,
-        "time_zone": "Eastern Time (US & Canada)",
-        "notifications": false,
-        "profile_use_background_image": true,
-        "friends_count": 803,
-        "profile_sidebar_fill_color": "000000",
-        "screen_name": "iWatchEbola",
-        "id_str": "121756495",
-        "profile_image_url": "http://pbs.twimg.com/profile_images/534544864503799808/zBGqt3B9_normal.jpeg",
-        "listed_count": 7,
-        "is_translator": false
       }
     },
     {
       "retweeted_status": {
         "contributors": null,
-        "text": "New figures on the #ebola outbreak released by the WHO show that nearly 7,000 people have now died of the disease, mostly in West Africa.",
+        "text": "@MackayIM @WHO Total #Ebola cases 11/28-12/1: +730 cases, -941 deaths; For Liberia alone: +391 cases, -1036 deaths. #needsmorescience",
         "geo": null,
         "retweeted": false,
-        "in_reply_to_screen_name": null,
+        "in_reply_to_screen_name": "MackayIM",
         "truncated": false,
         "lang": "en",
         "entities": {
           "symbols": [],
           "urls": [],
-          "hashtags": [{
-            "text": "ebola",
-            "indices": [
-              19,
-              25
-            ]
-          }],
-          "user_mentions": []
+          "hashtags": [
+            {
+              "text": "Ebola",
+              "indices": [
+                21,
+                27
+              ]
+            },
+            {
+              "text": "needsmorescience",
+              "indices": [
+                116,
+                133
+              ]
+            }
+          ],
+          "user_mentions": [
+            {
+              "id": 1352962327,
+              "name": "Ian M Mackay, PhD",
+              "indices": [
+                0,
+                9
+              ],
+              "screen_name": "MackayIM",
+              "id_str": "1352962327"
+            },
+            {
+              "id": 14499829,
+              "name": "WHO",
+              "indices": [
+                10,
+                14
+              ],
+              "screen_name": "WHO",
+              "id_str": "14499829"
+            }
+          ]
         },
-        "in_reply_to_status_id_str": null,
-        "id": 538697622597664768,
-        "source": "<a href=\"http://www.socialflow.com\" rel=\"nofollow\">SocialFlow<\/a>",
-        "in_reply_to_user_id_str": null,
+        "in_reply_to_status_id_str": "539543404573491201",
+        "id": 539598179524567040,
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client<\/a>",
+        "in_reply_to_user_id_str": "1352962327",
         "favorited": false,
-        "in_reply_to_status_id": null,
-        "retweet_count": 59,
-        "created_at": "Sat Nov 29 14:14:56 +0000 2014",
-        "in_reply_to_user_id": null,
-        "favorite_count": 6,
-        "id_str": "538697622597664768",
+        "in_reply_to_status_id": 539543404573491201,
+        "retweet_count": 1,
+        "created_at": "Tue Dec 02 01:53:25 +0000 2014",
+        "in_reply_to_user_id": 1352962327,
+        "favorite_count": 0,
+        "id_str": "539598179524567040",
         "place": null,
         "user": {
-          "location": "",
+          "location": "San Jose, CA",
           "default_profile": false,
           "profile_background_tile": false,
-          "statuses_count": 38010,
+          "statuses_count": 1342,
           "lang": "en",
-          "profile_link_color": "0084B4",
-          "profile_banner_url": "https://pbs.twimg.com/profile_banners/36670025/1416853550",
-          "id": 36670025,
+          "profile_link_color": "4A913C",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/16638041/1416267494",
+          "id": 16638041,
           "following": false,
           "protected": false,
           "profile_location": null,
-          "favourites_count": 28,
-          "profile_text_color": "333333",
-          "description": "African news from the BBC. Find us on Facebook: http://t.co/A4VykFFJx0  Google+: http://t.co/QBM1O7yrct and SoundCloud https://t.co/ggGXNSJMes",
-          "verified": true,
+          "favourites_count": 280,
+          "profile_text_color": "000000",
+          "description": "Ebola Virus Info Social Media Manager, Rockaways Hurricane Sandy News Community Organizer",
+          "verified": false,
           "contributors_enabled": false,
-          "profile_sidebar_border_color": "FFFFFF",
-          "name": "BBC Africa",
-          "profile_background_color": "9AE4E8",
-          "created_at": "Thu Apr 30 14:10:28 +0000 2009",
+          "profile_sidebar_border_color": "000000",
+          "name": "PeterCorless",
+          "profile_background_color": "000000",
+          "created_at": "Tue Oct 07 22:10:49 +0000 2008",
           "is_translation_enabled": false,
           "default_profile_image": false,
-          "followers_count": 587627,
-          "profile_image_url_https": "https://pbs.twimg.com/profile_images/378800000633179591/73e6da2b0a49fd639fde199b42f44bb0_normal.jpeg",
-          "geo_enabled": true,
-          "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/11046099/6101_wsafrica_twitter_bg.jpg",
-          "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/11046099/6101_wsafrica_twitter_bg.jpg",
+          "followers_count": 253,
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1259736196/Photo_110408_017_normal.jpg",
+          "geo_enabled": false,
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
           "follow_request_sent": false,
           "entities": {
-            "description": {"urls": [
-              {
-                "expanded_url": "http://www.facebook.com/bbcafrica",
-                "indices": [
-                  48,
-                  70
-                ],
-                "display_url": "facebook.com/bbcafrica",
-                "url": "http://t.co/A4VykFFJx0"
-              },
-              {
-                "expanded_url": "http://goo.gl/N8JsS",
-                "indices": [
-                  81,
-                  103
-                ],
-                "display_url": "goo.gl/N8JsS",
-                "url": "http://t.co/QBM1O7yrct"
-              },
-              {
-                "expanded_url": "https://soundcloud.com/bbcafrica",
-                "indices": [
-                  119,
-                  142
-                ],
-                "display_url": "soundcloud.com/bbcafrica",
-                "url": "https://t.co/ggGXNSJMes"
-              }
-            ]},
+            "description": {"urls": []},
             "url": {"urls": [{
-              "expanded_url": "http://www.bbcafrica.com",
+              "expanded_url": "https://facebook.com/groups/RockawaysHurricaneSandy",
               "indices": [
                 0,
-                22
+                23
               ],
-              "display_url": "bbcafrica.com",
-              "url": "http://t.co/G1bxm8flpV"
+              "display_url": "facebook.com/groups/Rockawa\u2026",
+              "url": "https://t.co/qYutnQPMoF"
             }]}
           },
-          "url": "http://t.co/G1bxm8flpV",
-          "utc_offset": 0,
-          "time_zone": "London",
+          "url": "https://t.co/qYutnQPMoF",
+          "utc_offset": null,
+          "time_zone": null,
           "notifications": false,
-          "profile_use_background_image": true,
-          "friends_count": 1060,
-          "profile_sidebar_fill_color": "F6D593",
-          "screen_name": "BBCAfrica",
-          "id_str": "36670025",
-          "profile_image_url": "http://pbs.twimg.com/profile_images/378800000633179591/73e6da2b0a49fd639fde199b42f44bb0_normal.jpeg",
-          "listed_count": 4571,
+          "profile_use_background_image": false,
+          "friends_count": 349,
+          "profile_sidebar_fill_color": "000000",
+          "screen_name": "PeterCorless",
+          "id_str": "16638041",
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1259736196/Photo_110408_017_normal.jpg",
+          "listed_count": 8,
           "is_translator": false
         },
         "coordinates": null,
@@ -1465,7 +1136,7 @@
         }
       },
       "contributors": null,
-      "text": "RT @BBCAfrica: New figures on the #ebola outbreak released by the WHO show that nearly 7,000 people have now died of the disease, mostly in\u2026",
+      "text": "RT @PeterCorless: @MackayIM @WHO Total #Ebola cases 11/28-12/1: +730 cases, -941 deaths; For Liberia alone: +391 cases, -1036 deaths. #need\u2026",
       "geo": null,
       "retweeted": false,
       "in_reply_to_screen_name": null,
@@ -1474,285 +1145,39 @@
       "entities": {
         "symbols": [],
         "urls": [],
-        "hashtags": [{
-          "text": "ebola",
-          "indices": [
-            34,
-            40
-          ]
-        }],
-        "user_mentions": [{
-          "id": 36670025,
-          "name": "BBC Africa",
-          "indices": [
-            3,
-            13
-          ],
-          "screen_name": "BBCAfrica",
-          "id_str": "36670025"
-        }]
-      },
-      "in_reply_to_status_id_str": null,
-      "id": 538713005392166913,
-      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android<\/a>",
-      "in_reply_to_user_id_str": null,
-      "favorited": false,
-      "in_reply_to_status_id": null,
-      "retweet_count": 59,
-      "created_at": "Sat Nov 29 15:16:03 +0000 2014",
-      "in_reply_to_user_id": null,
-      "favorite_count": 0,
-      "id_str": "538713005392166913",
-      "place": null,
-      "user": {
-        "location": "Dublin, Ireland",
-        "default_profile": false,
-        "profile_background_tile": false,
-        "statuses_count": 3997,
-        "lang": "en",
-        "profile_link_color": "0084B4",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/35763166/1396976286",
-        "id": 35763166,
-        "following": false,
-        "protected": false,
-        "profile_location": null,
-        "favourites_count": 5339,
-        "profile_text_color": "333333",
-        "description": "Microbide Ltd, research and develop antimicrobial solutions #LifeScience #AgriSecurity #BioSecurity #Pathogen #Virus #Spores #Fungus #Bacteria #Infection #Water",
-        "verified": false,
-        "contributors_enabled": false,
-        "profile_sidebar_border_color": "FFFFFF",
-        "name": "Microbide",
-        "profile_background_color": "FFFFFF",
-        "created_at": "Mon Apr 27 15:04:30 +0000 2009",
-        "is_translation_enabled": false,
-        "default_profile_image": false,
-        "followers_count": 378,
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/378800000756677227/5816df040b63a874f3f63ad28a632b5b_normal.jpeg",
-        "geo_enabled": false,
-        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/535364696694456320/KiXReW10.jpeg",
-        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/535364696694456320/KiXReW10.jpeg",
-        "follow_request_sent": false,
-        "entities": {
-          "description": {"urls": []},
-          "url": {"urls": [{
-            "expanded_url": "http://microbide.com",
-            "indices": [
-              0,
-              22
-            ],
-            "display_url": "microbide.com",
-            "url": "http://t.co/OkADY82rsJ"
-          }]}
-        },
-        "url": "http://t.co/OkADY82rsJ",
-        "utc_offset": 0,
-        "time_zone": "Dublin",
-        "notifications": false,
-        "profile_use_background_image": true,
-        "friends_count": 598,
-        "profile_sidebar_fill_color": "DDEEF6",
-        "screen_name": "Microbide",
-        "id_str": "35763166",
-        "profile_image_url": "http://pbs.twimg.com/profile_images/378800000756677227/5816df040b63a874f3f63ad28a632b5b_normal.jpeg",
-        "listed_count": 9,
-        "is_translator": false
-      },
-      "coordinates": null,
-      "metadata": {
-        "result_type": "recent",
-        "iso_language_code": "en"
-      }
-    },
-    {
-      "contributors": null,
-      "text": "Sat Nov 29\u2014A Positive Change: No  (**Currently Confirmed**) #Ebola cases in #Mali\nVia @reuters\nhttp://t.co/lLZNzNfXOj http://t.co/Bxe7xpHu1h",
-      "geo": null,
-      "retweeted": false,
-      "in_reply_to_screen_name": null,
-      "possibly_sensitive": false,
-      "truncated": false,
-      "lang": "en",
-      "entities": {
-        "symbols": [],
-        "urls": [{
-          "expanded_url": "http://www.trust.org/item/20141129144719-mv62d",
-          "indices": [
-            95,
-            117
-          ],
-          "display_url": "trust.org/item/201411291\u2026",
-          "url": "http://t.co/lLZNzNfXOj"
-        }],
         "hashtags": [
           {
             "text": "Ebola",
             "indices": [
-              60,
-              66
+              39,
+              45
             ]
           },
           {
-            "text": "Mali",
+            "text": "needsmorescience",
             "indices": [
-              76,
-              81
+              134,
+              140
             ]
           }
         ],
-        "media": [{
-          "sizes": {
-            "thumb": {
-              "w": 150,
-              "resize": "crop",
-              "h": 150
-            },
-            "small": {
-              "w": 340,
-              "resize": "fit",
-              "h": 340
-            },
-            "large": {
-              "w": 1000,
-              "resize": "fit",
-              "h": 1000
-            },
-            "medium": {
-              "w": 600,
-              "resize": "fit",
-              "h": 600
-            }
-          },
-          "id": 538711824632266752,
-          "media_url_https": "https://pbs.twimg.com/media/B3njjN-CQAAW7w4.png",
-          "media_url": "http://pbs.twimg.com/media/B3njjN-CQAAW7w4.png",
-          "expanded_url": "http://twitter.com/EbolaPhone/status/538712930037284864/photo/1",
-          "indices": [
-            118,
-            140
-          ],
-          "id_str": "538711824632266752",
-          "type": "photo",
-          "display_url": "pic.twitter.com/Bxe7xpHu1h",
-          "url": "http://t.co/Bxe7xpHu1h"
-        }],
-        "user_mentions": [{
-          "id": 1652541,
-          "name": "Reuters Top News",
-          "indices": [
-            86,
-            94
-          ],
-          "screen_name": "Reuters",
-          "id_str": "1652541"
-        }]
-      },
-      "in_reply_to_status_id_str": null,
-      "id": 538712930037284864,
-      "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck<\/a>",
-      "in_reply_to_user_id_str": null,
-      "favorited": false,
-      "in_reply_to_status_id": null,
-      "retweet_count": 0,
-      "created_at": "Sat Nov 29 15:15:45 +0000 2014",
-      "in_reply_to_user_id": null,
-      "favorite_count": 1,
-      "id_str": "538712930037284864",
-      "place": null,
-      "user": {
-        "location": "Utrecht, The Netherlands",
-        "default_profile": false,
-        "profile_background_tile": false,
-        "statuses_count": 20167,
-        "lang": "en",
-        "profile_link_color": "38871B",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/2697713994/1417142456",
-        "id": 2697713994,
-        "following": false,
-        "protected": false,
-        "profile_location": null,
-        "favourites_count": 367,
-        "profile_text_color": "333333",
-        "description": "PhD Chemist/Entrepreneur.Once arrested by President's son in Kara,Togo&sent packing back to Ghana.Many months of equally arresting work in Senegal&Gambia since.",
-        "verified": false,
-        "contributors_enabled": false,
-        "profile_sidebar_border_color": "FFFFFF",
-        "name": "Anthony England",
-        "profile_background_color": "66A67D",
-        "created_at": "Fri Aug 01 08:30:23 +0000 2014",
-        "is_translation_enabled": false,
-        "default_profile_image": false,
-        "followers_count": 1975,
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/531802816126263297/_Wc48ppZ_normal.png",
-        "geo_enabled": false,
-        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme15/bg.png",
-        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme15/bg.png",
-        "follow_request_sent": false,
-        "entities": {
-          "description": {"urls": []},
-          "url": {"urls": [{
-            "expanded_url": "https://twitter.com/EbolaPhone/status/531443607967105024",
-            "indices": [
-              0,
-              23
-            ],
-            "display_url": "twitter.com/EbolaPhone/sta\u2026",
-            "url": "https://t.co/zi8ZCVm1Ut"
-          }]}
-        },
-        "url": "https://t.co/zi8ZCVm1Ut",
-        "utc_offset": 3600,
-        "time_zone": "Amsterdam",
-        "notifications": false,
-        "profile_use_background_image": false,
-        "friends_count": 1883,
-        "profile_sidebar_fill_color": "DDEEF6",
-        "screen_name": "EbolaPhone",
-        "id_str": "2697713994",
-        "profile_image_url": "http://pbs.twimg.com/profile_images/531802816126263297/_Wc48ppZ_normal.png",
-        "listed_count": 66,
-        "is_translator": false
-      },
-      "coordinates": null,
-      "metadata": {
-        "result_type": "recent",
-        "iso_language_code": "en"
-      }
-    },
-    {
-      "contributors": null,
-      "text": "\"@MackayIM: This looks to be the latest in a growing list of \"homes\" to check for #Ebola data from @WHO.\nhttp://t.co/XVMoBYYdMg\"",
-      "geo": null,
-      "retweeted": false,
-      "in_reply_to_screen_name": null,
-      "possibly_sensitive": false,
-      "truncated": false,
-      "lang": "en",
-      "entities": {
-        "symbols": [],
-        "urls": [{
-          "expanded_url": "http://apps.who.int/gho/data/view.ebola-sitrep.ebola-summary-20141128?lang=en",
-          "indices": [
-            105,
-            127
-          ],
-          "display_url": "apps.who.int/gho/data/view.\u2026",
-          "url": "http://t.co/XVMoBYYdMg"
-        }],
-        "hashtags": [{
-          "text": "Ebola",
-          "indices": [
-            82,
-            88
-          ]
-        }],
         "user_mentions": [
+          {
+            "id": 16638041,
+            "name": "PeterCorless",
+            "indices": [
+              3,
+              16
+            ],
+            "screen_name": "PeterCorless",
+            "id_str": "16638041"
+          },
           {
             "id": 1352962327,
             "name": "Ian M Mackay, PhD",
             "indices": [
-              1,
-              10
+              18,
+              27
             ],
             "screen_name": "MackayIM",
             "id_str": "1352962327"
@@ -1761,8 +1186,8 @@
             "id": 14499829,
             "name": "WHO",
             "indices": [
-              99,
-              103
+              28,
+              32
             ],
             "screen_name": "WHO",
             "id_str": "14499829"
@@ -1770,69 +1195,58 @@
         ]
       },
       "in_reply_to_status_id_str": null,
-      "id": 538712886173265920,
-      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android<\/a>",
+      "id": 539598320923316224,
+      "source": "<a href=\"http://www.bbotmaker.com/\" rel=\"nofollow\">BBotMaker - Bot à mots-clés<\/a>",
       "in_reply_to_user_id_str": null,
       "favorited": false,
       "in_reply_to_status_id": null,
-      "retweet_count": 0,
-      "created_at": "Sat Nov 29 15:15:35 +0000 2014",
+      "retweet_count": 1,
+      "created_at": "Tue Dec 02 01:53:59 +0000 2014",
       "in_reply_to_user_id": null,
       "favorite_count": 0,
-      "id_str": "538712886173265920",
+      "id_str": "539598320923316224",
       "place": null,
       "user": {
-        "location": "Dublin, Ireland",
-        "default_profile": false,
+        "location": "london",
+        "default_profile": true,
         "profile_background_tile": false,
-        "statuses_count": 3997,
+        "statuses_count": 65387,
         "lang": "en",
         "profile_link_color": "0084B4",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/35763166/1396976286",
-        "id": 35763166,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/2630749356/1406058990",
+        "id": 2630749356,
         "following": false,
         "protected": false,
         "profile_location": null,
-        "favourites_count": 5339,
+        "favourites_count": 5,
         "profile_text_color": "333333",
-        "description": "Microbide Ltd, research and develop antimicrobial solutions #LifeScience #AgriSecurity #BioSecurity #Pathogen #Virus #Spores #Fungus #Bacteria #Infection #Water",
+        "description": "",
         "verified": false,
         "contributors_enabled": false,
-        "profile_sidebar_border_color": "FFFFFF",
-        "name": "Microbide",
-        "profile_background_color": "FFFFFF",
-        "created_at": "Mon Apr 27 15:04:30 +0000 2009",
+        "profile_sidebar_border_color": "C0DEED",
+        "name": "NGO News",
+        "profile_background_color": "C0DEED",
+        "created_at": "Sat Jul 12 21:03:17 +0000 2014",
         "is_translation_enabled": false,
         "default_profile_image": false,
-        "followers_count": 378,
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/378800000756677227/5816df040b63a874f3f63ad28a632b5b_normal.jpeg",
+        "followers_count": 2729,
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/491673160828588033/XvYOSH_C_normal.jpeg",
         "geo_enabled": false,
-        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/535364696694456320/KiXReW10.jpeg",
-        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/535364696694456320/KiXReW10.jpeg",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
         "follow_request_sent": false,
-        "entities": {
-          "description": {"urls": []},
-          "url": {"urls": [{
-            "expanded_url": "http://microbide.com",
-            "indices": [
-              0,
-              22
-            ],
-            "display_url": "microbide.com",
-            "url": "http://t.co/OkADY82rsJ"
-          }]}
-        },
-        "url": "http://t.co/OkADY82rsJ",
-        "utc_offset": 0,
-        "time_zone": "Dublin",
+        "entities": {"description": {"urls": []}},
+        "url": null,
+        "utc_offset": null,
+        "time_zone": null,
         "notifications": false,
         "profile_use_background_image": true,
-        "friends_count": 598,
+        "friends_count": 1,
         "profile_sidebar_fill_color": "DDEEF6",
-        "screen_name": "Microbide",
-        "id_str": "35763166",
-        "profile_image_url": "http://pbs.twimg.com/profile_images/378800000756677227/5816df040b63a874f3f63ad28a632b5b_normal.jpeg",
-        "listed_count": 9,
+        "screen_name": "totalNGOnews",
+        "id_str": "2630749356",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/491673160828588033/XvYOSH_C_normal.jpeg",
+        "listed_count": 71,
         "is_translator": false
       },
       "coordinates": null,
@@ -1842,32 +1256,12 @@
       }
     },
     {
-      "retweeted": false,
-      "in_reply_to_screen_name": null,
-      "possibly_sensitive": false,
-      "truncated": false,
-      "lang": "en",
-      "in_reply_to_status_id_str": null,
-      "id": 538712788370464769,
-      "in_reply_to_user_id_str": null,
-      "in_reply_to_status_id": null,
-      "created_at": "Sat Nov 29 15:15:12 +0000 2014",
-      "favorite_count": 0,
-      "place": null,
-      "coordinates": null,
-      "metadata": {
-        "result_type": "recent",
-        "iso_language_code": "en"
-      },
-      "text": "RT @WFP: #EbolaResponse: Here's latest #map of #Ebola outbreak in #WestAfrica with stats for Liberia, Guinea &amp; Sierra Leone http://t.co/el3\u2026",
-      "contributors": null,
       "retweeted_status": {
         "contributors": null,
-        "text": "#EbolaResponse: Here's latest #map of #Ebola outbreak in #WestAfrica with stats for Liberia, Guinea &amp; Sierra Leone http://t.co/el3rRVb0QJ",
+        "text": "#ISIS IS COMING! #EBOLA IS COMING!! #ZOMBIES ARE COMING!! THEY'RE GOING TO KILL US ALL!!!\n#LindseyGrahamHysteria\n#GopFearMongers\n#UniteBlue",
         "geo": null,
         "retweeted": false,
         "in_reply_to_screen_name": null,
-        "possibly_sensitive": false,
         "truncated": false,
         "lang": "en",
         "entities": {
@@ -1875,136 +1269,114 @@
           "urls": [],
           "hashtags": [
             {
-              "text": "EbolaResponse",
+              "text": "ISIS",
               "indices": [
                 0,
-                14
+                5
               ]
             },
             {
-              "text": "map",
+              "text": "EBOLA",
               "indices": [
-                30,
-                34
+                17,
+                23
               ]
             },
             {
-              "text": "Ebola",
+              "text": "ZOMBIES",
               "indices": [
-                38,
+                36,
                 44
               ]
             },
             {
-              "text": "WestAfrica",
+              "text": "LindseyGrahamHysteria",
               "indices": [
-                57,
-                68
+                90,
+                112
+              ]
+            },
+            {
+              "text": "GopFearMongers",
+              "indices": [
+                113,
+                128
+              ]
+            },
+            {
+              "text": "UniteBlue",
+              "indices": [
+                129,
+                139
               ]
             }
           ],
-          "media": [{
-            "sizes": {
-              "small": {
-                "w": 340,
-                "resize": "fit",
-                "h": 240
-              },
-              "thumb": {
-                "w": 150,
-                "resize": "crop",
-                "h": 150
-              },
-              "medium": {
-                "w": 600,
-                "resize": "fit",
-                "h": 423
-              },
-              "large": {
-                "w": 1024,
-                "resize": "fit",
-                "h": 723
-              }
-            },
-            "id": 538367300546478081,
-            "media_url_https": "https://pbs.twimg.com/media/B3iqNRvCQAEG5Cd.jpg",
-            "media_url": "http://pbs.twimg.com/media/B3iqNRvCQAEG5Cd.jpg",
-            "expanded_url": "http://twitter.com/WFP/status/538367302333648896/photo/1",
-            "indices": [
-              119,
-              141
-            ],
-            "id_str": "538367300546478081",
-            "type": "photo",
-            "display_url": "pic.twitter.com/el3rRVb0QJ",
-            "url": "http://t.co/el3rRVb0QJ"
-          }],
           "user_mentions": []
         },
         "in_reply_to_status_id_str": null,
-        "id": 538367302333648896,
+        "id": 539594158046855169,
         "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client<\/a>",
         "in_reply_to_user_id_str": null,
         "favorited": false,
         "in_reply_to_status_id": null,
-        "retweet_count": 62,
-        "created_at": "Fri Nov 28 16:22:21 +0000 2014",
+        "retweet_count": 5,
+        "created_at": "Tue Dec 02 01:37:27 +0000 2014",
         "in_reply_to_user_id": null,
-        "favorite_count": 26,
-        "id_str": "538367302333648896",
+        "favorite_count": 6,
+        "id_str": "539594158046855169",
         "place": null,
         "user": {
-          "location": "Worldwide",
-          "default_profile": false,
+          "location": "Tennessee",
+          "default_profile": true,
           "profile_background_tile": false,
-          "statuses_count": 15296,
+          "statuses_count": 203640,
           "lang": "en",
-          "profile_link_color": "44AAFF",
-          "profile_banner_url": "https://pbs.twimg.com/profile_banners/27830610/1414399039",
-          "id": 27830610,
+          "profile_link_color": "0084B4",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/1634552636/1407212497",
+          "id": 1634552636,
           "following": false,
           "protected": false,
           "profile_location": null,
-          "favourites_count": 634,
-          "profile_text_color": "302C2C",
-          "description": "Fighting hunger worldwide. The United Nations World Food Programme is the world's largest humanitarian agency on the front lines against hunger.",
-          "verified": true,
+          "favourites_count": 22154,
+          "profile_text_color": "333333",
+          "description": "I've been on top of the world and I have been in the depths of the sea. Once again I am on the top and the view is much better from here.  #UniteBlue",
+          "verified": false,
           "contributors_enabled": false,
-          "profile_sidebar_border_color": "FFFFFF",
-          "name": "World Food Programme",
-          "profile_background_color": "000000",
-          "created_at": "Tue Mar 31 07:02:18 +0000 2009",
+          "profile_sidebar_border_color": "C0DEED",
+          "name": "Michael Terry",
+          "profile_background_color": "C0DEED",
+          "created_at": "Wed Jul 31 04:11:38 +0000 2013",
           "is_translation_enabled": false,
           "default_profile_image": false,
-          "followers_count": 817853,
-          "profile_image_url_https": "https://pbs.twimg.com/profile_images/460783513369706496/QOtoriB3_normal.png",
+          "followers_count": 12465,
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/457277643004444672/XusUu-q7_normal.png",
           "geo_enabled": true,
-          "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/494161412449509377/hA0XhlXv.jpeg",
-          "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/494161412449509377/hA0XhlXv.jpeg",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
           "follow_request_sent": false,
           "entities": {
             "description": {"urls": []},
             "url": {"urls": [{
-              "expanded_url": "http://www.wfp.org",
+              "expanded_url": "http://twiends.com/michaelterry337",
               "indices": [
                 0,
                 22
               ],
-              "display_url": "wfp.org",
-              "url": "http://t.co/YSyzdwqT9n"
+              "display_url": "twiends.com/michaelterry337",
+              "url": "http://t.co/h8PpvrcKCM"
             }]}
           },
-          "url": "http://t.co/YSyzdwqT9n",
-          "utc_offset": 3600,
-          "time_zone": "Rome",
+          "url": "http://t.co/h8PpvrcKCM",
+          "utc_offset": -21600,
+          "time_zone": "Central Time (US & Canada)",
           "notifications": false,
           "profile_use_background_image": true,
-          "friends_count": 634,
-          "profile_sidebar_fill_color": "FFFFFF",
-          "screen_name": "WFP",
-          "id_str": "27830610",
-          "profile_image_url": "http://pbs.twimg.com/profile_images/460783513369706496/QOtoriB3_normal.png",
-          "listed_count": 9409,
+          "friends_count": 10844,
+          "profile_sidebar_fill_color": "DDEEF6",
+          "screen_name": "mterry337",
+          "id_str": "1634552636",
+          "profile_image_url": "http://pbs.twimg.com/profile_images/457277643004444672/XusUu-q7_normal.png",
+          "listed_count": 256,
           "is_translator": false
         },
         "coordinates": null,
@@ -2013,147 +1385,620 @@
           "iso_language_code": "en"
         }
       },
+      "contributors": null,
+      "text": "RT @mterry337: #ISIS IS COMING! #EBOLA IS COMING!! #ZOMBIES ARE COMING!! THEY'RE GOING TO KILL US ALL!!!\n#LindseyGrahamHysteria\n#GopFearMon\u2026",
       "geo": null,
+      "retweeted": false,
+      "in_reply_to_screen_name": null,
+      "truncated": false,
+      "lang": "en",
       "entities": {
         "symbols": [],
         "urls": [],
         "hashtags": [
           {
-            "text": "EbolaResponse",
+            "text": "ISIS",
             "indices": [
-              9,
-              23
+              15,
+              20
             ]
           },
           {
-            "text": "map",
+            "text": "EBOLA",
             "indices": [
-              39,
-              43
+              32,
+              38
             ]
           },
           {
-            "text": "Ebola",
+            "text": "ZOMBIES",
             "indices": [
-              47,
-              53
+              51,
+              59
             ]
           },
           {
-            "text": "WestAfrica",
+            "text": "LindseyGrahamHysteria",
             "indices": [
-              66,
-              77
+              105,
+              127
+            ]
+          },
+          {
+            "text": "GopFearMongers",
+            "indices": [
+              128,
+              140
+            ]
+          },
+          {
+            "text": "UniteBlue",
+            "indices": [
+              139,
+              140
             ]
           }
         ],
-        "media": [{
-          "sizes": {
-            "small": {
-              "w": 340,
-              "resize": "fit",
-              "h": 240
-            },
-            "thumb": {
-              "w": 150,
-              "resize": "crop",
-              "h": 150
-            },
-            "medium": {
-              "w": 600,
-              "resize": "fit",
-              "h": 423
-            },
-            "large": {
-              "w": 1024,
-              "resize": "fit",
-              "h": 723
-            }
-          },
-          "id": 538367300546478081,
-          "media_url_https": "https://pbs.twimg.com/media/B3iqNRvCQAEG5Cd.jpg",
-          "media_url": "http://pbs.twimg.com/media/B3iqNRvCQAEG5Cd.jpg",
-          "expanded_url": "http://twitter.com/WFP/status/538367302333648896/photo/1",
-          "source_status_id_str": "538367302333648896",
-          "indices": [
-            143,
-            144
-          ],
-          "source_status_id": 538367302333648896,
-          "id_str": "538367300546478081",
-          "type": "photo",
-          "display_url": "pic.twitter.com/el3rRVb0QJ",
-          "url": "http://t.co/el3rRVb0QJ"
-        }],
         "user_mentions": [{
-          "id": 27830610,
-          "name": "World Food Programme",
+          "id": 1634552636,
+          "name": "Michael Terry",
           "indices": [
             3,
-            7
+            13
           ],
-          "screen_name": "WFP",
-          "id_str": "27830610"
+          "screen_name": "mterry337",
+          "id_str": "1634552636"
         }]
       },
-      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android<\/a>",
+      "in_reply_to_status_id_str": null,
+      "id": 539598306012590080,
+      "source": "<a href=\"https://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android Tablets<\/a>",
+      "in_reply_to_user_id_str": null,
       "favorited": false,
+      "in_reply_to_status_id": null,
+      "retweet_count": 5,
+      "created_at": "Tue Dec 02 01:53:56 +0000 2014",
       "in_reply_to_user_id": null,
-      "retweet_count": 62,
-      "id_str": "538712788370464769",
+      "favorite_count": 0,
+      "id_str": "539598306012590080",
+      "place": null,
       "user": {
-        "location": "",
-        "default_profile": true,
+        "location": "kötülerin koynundayım ",
+        "default_profile": false,
         "profile_background_tile": false,
-        "statuses_count": 901,
-        "lang": "es",
-        "profile_link_color": "0084B4",
-        "id": 425858734,
+        "statuses_count": 75075,
+        "lang": "en",
+        "profile_link_color": "088253",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/91635777/1411475022",
+        "id": 91635777,
         "following": false,
         "protected": false,
         "profile_location": null,
-        "favourites_count": 45,
-        "profile_text_color": "333333",
-        "description": "",
+        "favourites_count": 20111,
+        "profile_text_color": "634047",
+        "description": "friend of folks",
         "verified": false,
         "contributors_enabled": false,
-        "profile_sidebar_border_color": "C0DEED",
-        "name": "enrique suarez",
-        "profile_background_color": "C0DEED",
-        "created_at": "Thu Dec 01 14:38:38 +0000 2011",
+        "profile_sidebar_border_color": "FFFFFF",
+        "name": "hâkî",
+        "profile_background_color": "EDECE9",
+        "created_at": "Sat Nov 21 19:23:33 +0000 2009",
         "is_translation_enabled": false,
-        "default_profile_image": true,
-        "followers_count": 29,
-        "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_0_normal.png",
+        "default_profile_image": false,
+        "followers_count": 944,
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/514388866359242752/7ZaClHGC_normal.png",
+        "geo_enabled": true,
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/464823733077553152/P0zi7Cf0.png",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/464823733077553152/P0zi7Cf0.png",
+        "follow_request_sent": false,
+        "entities": {"description": {"urls": []}},
+        "url": null,
+        "utc_offset": -10800,
+        "time_zone": "Greenland",
+        "notifications": false,
+        "profile_use_background_image": false,
+        "friends_count": 1410,
+        "profile_sidebar_fill_color": "E3E2DE",
+        "screen_name": "bitmeyeneskiz",
+        "id_str": "91635777",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/514388866359242752/7ZaClHGC_normal.png",
+        "listed_count": 11,
+        "is_translator": false
+      },
+      "coordinates": null,
+      "metadata": {
+        "result_type": "recent",
+        "iso_language_code": "en"
+      }
+    },
+    {
+      "contributors": null,
+      "text": "CDC: More Than 1,400 People in U.S. Being Actively Monitored for #Ebola | Sharyl Attkisson http://t.co/TM2Vrhfq00",
+      "geo": null,
+      "retweeted": false,
+      "in_reply_to_screen_name": null,
+      "possibly_sensitive": false,
+      "truncated": false,
+      "lang": "en",
+      "entities": {
+        "symbols": [],
+        "urls": [{
+          "expanded_url": "http://sharylattkisson.com/cdc-more-than-1400-people-in-u-s-being-actively-monitored-for-ebola",
+          "indices": [
+            91,
+            113
+          ],
+          "display_url": "sharylattkisson.com/cdc-more-than-\u2026",
+          "url": "http://t.co/TM2Vrhfq00"
+        }],
+        "hashtags": [{
+          "text": "Ebola",
+          "indices": [
+            65,
+            71
+          ]
+        }],
+        "user_mentions": []
+      },
+      "in_reply_to_status_id_str": null,
+      "id": 539598229579374593,
+      "source": "<a href=\"https://dev.twitter.com/docs/tfw\" rel=\"nofollow\">Twitter for Websites<\/a>",
+      "in_reply_to_user_id_str": null,
+      "favorited": false,
+      "in_reply_to_status_id": null,
+      "retweet_count": 0,
+      "created_at": "Tue Dec 02 01:53:37 +0000 2014",
+      "in_reply_to_user_id": null,
+      "favorite_count": 0,
+      "id_str": "539598229579374593",
+      "place": null,
+      "user": {
+        "location": "",
+        "default_profile": false,
+        "profile_background_tile": false,
+        "statuses_count": 179967,
+        "lang": "en",
+        "profile_link_color": "0084B4",
+        "id": 26243227,
+        "following": false,
+        "protected": false,
+        "profile_location": null,
+        "favourites_count": 111,
+        "profile_text_color": "333333",
+        "description": "We buy and sell vintage and contemporary costume jewelry. Use coupon: TWCUST11 at checkout for 10% discount.",
+        "verified": false,
+        "contributors_enabled": false,
+        "profile_sidebar_border_color": "BDDCAD",
+        "name": "Amazing Adornments",
+        "profile_background_color": "9AE4E8",
+        "created_at": "Tue Mar 24 14:09:39 +0000 2009",
+        "is_translation_enabled": false,
+        "default_profile_image": false,
+        "followers_count": 2910,
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/108543726/E6876LRNEC_small_normal.jpg",
+        "geo_enabled": false,
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/8501204/BG1.JPG",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/8501204/BG1.JPG",
+        "follow_request_sent": false,
+        "entities": {
+          "description": {"urls": []},
+          "url": {"urls": [{
+            "expanded_url": "http://www.amazingadornments.com",
+            "indices": [
+              0,
+              22
+            ],
+            "display_url": "amazingadornments.com",
+            "url": "http://t.co/UJsx2RD77s"
+          }]}
+        },
+        "url": "http://t.co/UJsx2RD77s",
+        "utc_offset": -18000,
+        "time_zone": "Eastern Time (US & Canada)",
+        "notifications": false,
+        "profile_use_background_image": true,
+        "friends_count": 2992,
+        "profile_sidebar_fill_color": "E7CCFF",
+        "screen_name": "amadorn",
+        "id_str": "26243227",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/108543726/E6876LRNEC_small_normal.jpg",
+        "listed_count": 41,
+        "is_translator": false
+      },
+      "coordinates": null,
+      "metadata": {
+        "result_type": "recent",
+        "iso_language_code": "en"
+      }
+    },
+    {
+      "contributors": null,
+      "text": "@MackayIM @WHO Total #Ebola cases 11/28-12/1: +730 cases, -941 deaths; For Liberia alone: +391 cases, -1036 deaths. #needsmorescience",
+      "geo": null,
+      "retweeted": false,
+      "in_reply_to_screen_name": "MackayIM",
+      "truncated": false,
+      "lang": "en",
+      "entities": {
+        "symbols": [],
+        "urls": [],
+        "hashtags": [
+          {
+            "text": "Ebola",
+            "indices": [
+              21,
+              27
+            ]
+          },
+          {
+            "text": "needsmorescience",
+            "indices": [
+              116,
+              133
+            ]
+          }
+        ],
+        "user_mentions": [
+          {
+            "id": 1352962327,
+            "name": "Ian M Mackay, PhD",
+            "indices": [
+              0,
+              9
+            ],
+            "screen_name": "MackayIM",
+            "id_str": "1352962327"
+          },
+          {
+            "id": 14499829,
+            "name": "WHO",
+            "indices": [
+              10,
+              14
+            ],
+            "screen_name": "WHO",
+            "id_str": "14499829"
+          }
+        ]
+      },
+      "in_reply_to_status_id_str": "539543404573491201",
+      "id": 539598179524567040,
+      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client<\/a>",
+      "in_reply_to_user_id_str": "1352962327",
+      "favorited": false,
+      "in_reply_to_status_id": 539543404573491201,
+      "retweet_count": 1,
+      "created_at": "Tue Dec 02 01:53:25 +0000 2014",
+      "in_reply_to_user_id": 1352962327,
+      "favorite_count": 0,
+      "id_str": "539598179524567040",
+      "place": null,
+      "user": {
+        "location": "San Jose, CA",
+        "default_profile": false,
+        "profile_background_tile": false,
+        "statuses_count": 1342,
+        "lang": "en",
+        "profile_link_color": "4A913C",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/16638041/1416267494",
+        "id": 16638041,
+        "following": false,
+        "protected": false,
+        "profile_location": null,
+        "favourites_count": 280,
+        "profile_text_color": "000000",
+        "description": "Ebola Virus Info Social Media Manager, Rockaways Hurricane Sandy News Community Organizer",
+        "verified": false,
+        "contributors_enabled": false,
+        "profile_sidebar_border_color": "000000",
+        "name": "PeterCorless",
+        "profile_background_color": "000000",
+        "created_at": "Tue Oct 07 22:10:49 +0000 2008",
+        "is_translation_enabled": false,
+        "default_profile_image": false,
+        "followers_count": 253,
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1259736196/Photo_110408_017_normal.jpg",
         "geo_enabled": false,
         "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
         "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
         "follow_request_sent": false,
+        "entities": {
+          "description": {"urls": []},
+          "url": {"urls": [{
+            "expanded_url": "https://facebook.com/groups/RockawaysHurricaneSandy",
+            "indices": [
+              0,
+              23
+            ],
+            "display_url": "facebook.com/groups/Rockawa\u2026",
+            "url": "https://t.co/qYutnQPMoF"
+          }]}
+        },
+        "url": "https://t.co/qYutnQPMoF",
+        "utc_offset": null,
+        "time_zone": null,
+        "notifications": false,
+        "profile_use_background_image": false,
+        "friends_count": 349,
+        "profile_sidebar_fill_color": "000000",
+        "screen_name": "PeterCorless",
+        "id_str": "16638041",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1259736196/Photo_110408_017_normal.jpg",
+        "listed_count": 8,
+        "is_translator": false
+      },
+      "coordinates": null,
+      "metadata": {
+        "result_type": "recent",
+        "iso_language_code": "en"
+      }
+    },
+    {
+      "retweeted_status": {
+        "contributors": null,
+        "text": "#ISIS IS COMING! #EBOLA IS COMING!! #ZOMBIES ARE COMING!! THEY'RE GOING TO KILL US ALL!!!\n#LindseyGrahamHysteria\n#GopFearMongers\n#UniteBlue",
+        "geo": null,
+        "retweeted": false,
+        "in_reply_to_screen_name": null,
+        "truncated": false,
+        "lang": "en",
+        "entities": {
+          "symbols": [],
+          "urls": [],
+          "hashtags": [
+            {
+              "text": "ISIS",
+              "indices": [
+                0,
+                5
+              ]
+            },
+            {
+              "text": "EBOLA",
+              "indices": [
+                17,
+                23
+              ]
+            },
+            {
+              "text": "ZOMBIES",
+              "indices": [
+                36,
+                44
+              ]
+            },
+            {
+              "text": "LindseyGrahamHysteria",
+              "indices": [
+                90,
+                112
+              ]
+            },
+            {
+              "text": "GopFearMongers",
+              "indices": [
+                113,
+                128
+              ]
+            },
+            {
+              "text": "UniteBlue",
+              "indices": [
+                129,
+                139
+              ]
+            }
+          ],
+          "user_mentions": []
+        },
+        "in_reply_to_status_id_str": null,
+        "id": 539594158046855169,
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client<\/a>",
+        "in_reply_to_user_id_str": null,
+        "favorited": false,
+        "in_reply_to_status_id": null,
+        "retweet_count": 5,
+        "created_at": "Tue Dec 02 01:37:27 +0000 2014",
+        "in_reply_to_user_id": null,
+        "favorite_count": 6,
+        "id_str": "539594158046855169",
+        "place": null,
+        "user": {
+          "location": "Tennessee",
+          "default_profile": true,
+          "profile_background_tile": false,
+          "statuses_count": 203640,
+          "lang": "en",
+          "profile_link_color": "0084B4",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/1634552636/1407212497",
+          "id": 1634552636,
+          "following": false,
+          "protected": false,
+          "profile_location": null,
+          "favourites_count": 22154,
+          "profile_text_color": "333333",
+          "description": "I've been on top of the world and I have been in the depths of the sea. Once again I am on the top and the view is much better from here.  #UniteBlue",
+          "verified": false,
+          "contributors_enabled": false,
+          "profile_sidebar_border_color": "C0DEED",
+          "name": "Michael Terry",
+          "profile_background_color": "C0DEED",
+          "created_at": "Wed Jul 31 04:11:38 +0000 2013",
+          "is_translation_enabled": false,
+          "default_profile_image": false,
+          "followers_count": 12465,
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/457277643004444672/XusUu-q7_normal.png",
+          "geo_enabled": true,
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "follow_request_sent": false,
+          "entities": {
+            "description": {"urls": []},
+            "url": {"urls": [{
+              "expanded_url": "http://twiends.com/michaelterry337",
+              "indices": [
+                0,
+                22
+              ],
+              "display_url": "twiends.com/michaelterry337",
+              "url": "http://t.co/h8PpvrcKCM"
+            }]}
+          },
+          "url": "http://t.co/h8PpvrcKCM",
+          "utc_offset": -21600,
+          "time_zone": "Central Time (US & Canada)",
+          "notifications": false,
+          "profile_use_background_image": true,
+          "friends_count": 10844,
+          "profile_sidebar_fill_color": "DDEEF6",
+          "screen_name": "mterry337",
+          "id_str": "1634552636",
+          "profile_image_url": "http://pbs.twimg.com/profile_images/457277643004444672/XusUu-q7_normal.png",
+          "listed_count": 256,
+          "is_translator": false
+        },
+        "coordinates": null,
+        "metadata": {
+          "result_type": "recent",
+          "iso_language_code": "en"
+        }
+      },
+      "contributors": null,
+      "text": "RT @mterry337: #ISIS IS COMING! #EBOLA IS COMING!! #ZOMBIES ARE COMING!! THEY'RE GOING TO KILL US ALL!!!\n#LindseyGrahamHysteria\n#GopFearMon\u2026",
+      "geo": null,
+      "retweeted": false,
+      "in_reply_to_screen_name": null,
+      "truncated": false,
+      "lang": "en",
+      "entities": {
+        "symbols": [],
+        "urls": [],
+        "hashtags": [
+          {
+            "text": "ISIS",
+            "indices": [
+              15,
+              20
+            ]
+          },
+          {
+            "text": "EBOLA",
+            "indices": [
+              32,
+              38
+            ]
+          },
+          {
+            "text": "ZOMBIES",
+            "indices": [
+              51,
+              59
+            ]
+          },
+          {
+            "text": "LindseyGrahamHysteria",
+            "indices": [
+              105,
+              127
+            ]
+          },
+          {
+            "text": "GopFearMongers",
+            "indices": [
+              128,
+              140
+            ]
+          },
+          {
+            "text": "UniteBlue",
+            "indices": [
+              139,
+              140
+            ]
+          }
+        ],
+        "user_mentions": [{
+          "id": 1634552636,
+          "name": "Michael Terry",
+          "indices": [
+            3,
+            13
+          ],
+          "screen_name": "mterry337",
+          "id_str": "1634552636"
+        }]
+      },
+      "in_reply_to_status_id_str": null,
+      "id": 539598129859805184,
+      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client<\/a>",
+      "in_reply_to_user_id_str": null,
+      "favorited": false,
+      "in_reply_to_status_id": null,
+      "retweet_count": 5,
+      "created_at": "Tue Dec 02 01:53:14 +0000 2014",
+      "in_reply_to_user_id": null,
+      "favorite_count": 0,
+      "id_str": "539598129859805184",
+      "place": null,
+      "user": {
+        "location": "Inside your phone",
+        "default_profile": false,
+        "profile_background_tile": true,
+        "statuses_count": 73765,
+        "lang": "en",
+        "profile_link_color": "0084B4",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/15777611/1363563760",
+        "id": 15777611,
+        "following": false,
+        "protected": false,
+        "profile_location": null,
+        "favourites_count": 3365,
+        "profile_text_color": "333333",
+        "description": "I'm a board certified witch doctor with an MFA in sandwich art. My hobbies are sculpting earwax and cooking with glue. Opinions my own. Hair is not.",
+        "verified": false,
+        "contributors_enabled": false,
+        "profile_sidebar_border_color": "FFFFFF",
+        "name": "Crutnacker",
+        "profile_background_color": "C0DEED",
+        "created_at": "Fri Aug 08 13:17:17 +0000 2008",
+        "is_translation_enabled": false,
+        "default_profile_image": false,
+        "followers_count": 3885,
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/530147723526156290/6DWV4R9z_normal.jpeg",
+        "geo_enabled": true,
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000067800856/88d9363d95eaaf7502799e0a38b61245.jpeg",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000067800856/88d9363d95eaaf7502799e0a38b61245.jpeg",
+        "follow_request_sent": false,
         "entities": {"description": {"urls": []}},
         "url": null,
-        "utc_offset": 0,
-        "time_zone": "London",
+        "utc_offset": -21600,
+        "time_zone": "Central Time (US & Canada)",
         "notifications": false,
         "profile_use_background_image": true,
-        "friends_count": 174,
+        "friends_count": 2762,
         "profile_sidebar_fill_color": "DDEEF6",
-        "screen_name": "EnriqueVacai",
-        "id_str": "425858734",
-        "profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_0_normal.png",
-        "listed_count": 1,
+        "screen_name": "Crutnacker",
+        "id_str": "15777611",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/530147723526156290/6DWV4R9z_normal.jpeg",
+        "listed_count": 178,
         "is_translator": false
+      },
+      "coordinates": null,
+      "metadata": {
+        "result_type": "recent",
+        "iso_language_code": "en"
       }
     }
   ],
   "search_metadata": {
     "since_id": 0,
     "count": 10,
-    "max_id": 538713426856382464,
-    "refresh_url": "?since_id=538713426856382464&q=%23ebola&lang=en&result_type=recent&include_entities=1",
+    "max_id": 539598600159121408,
+    "refresh_url": "?since_id=539598600159121408&q=%23ebola&lang=en&result_type=recent&include_entities=1",
     "query": "%23ebola",
-    "max_id_str": "538713426856382464",
-    "next_results": "?max_id=538712788370464768&q=%23ebola&lang=en&count=10&include_entities=1&result_type=recent",
+    "max_id_str": "539598600159121408",
+    "next_results": "?max_id=539598129859805183&q=%23ebola&lang=en&count=10&include_entities=1&result_type=recent",
     "since_id_str": "0",
-    "completed_in": 0.026
+    "completed_in": 0.024
   }
 }

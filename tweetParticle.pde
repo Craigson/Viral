@@ -186,8 +186,8 @@ class tweetParticle {
     color c = determineColour();
     if (isRecent == true) {
       noStroke();
-      fill(100, 100, 100);
-      textSize(20);
+      fill(200,65,95);
+      textSize(14);
       text(userID, location.x + selectionRange, location.y+5);
     } else {
       if (infected == true) {
@@ -449,13 +449,13 @@ class tweetParticle {
   color determineColour() {
     noStroke();
     if (isRecent == true) {
-      particleColour = color(random(190, 210), random(50, 80), random(80, 110));
+      particleColour = color(200,65,95,90);
       textColour = color(200, 70, 95);
     } else if (beingHeld == true) {
-      particleColour = color(360, 50, 90);
-      textColour = color(360, 50, 90);
+      particleColour = color(100,100,100,90);
+      textColour = color(100,100,100,90);
     } else if (infected == false) {
-      particleColour = color(100, 100, 100, 90);
+      particleColour = color(100, 0, 100, 90);
     } else if (infected == true) {
       particleColour = color(350, 100, 93, 90);
       textColour = color(350, 100, 93, 90);
@@ -513,34 +513,28 @@ class tweetParticle {
   //----------------------------------displayHashtag()-----------------------------
 
   void displayHashTag() {
-    fill(100, 1002, 100);
-    textSize(20);
+    fill(100, 100, 100);
+    textSize(14);
+    if (commonHashtag != ""){
     text("#" + commonHashtag, location.x+selectionRange, location.y-10);
+    }
   }
 
   void displayFullTweet(PFont f) {
-    textSize(60);
-    textAlign(LEFT, CENTER);
-noStroke();
-    fill(350, 100, 93, 90);
-    text("#EBOLA", 80, dropZone.y);
-        textSize(40);
-    text("Live Tweets:", 80, 50);
     if (inTheZone == true) {
-      textSize(36);
+      textFont(f2);
       textAlign(LEFT, CENTER);
-      textLeading(36);
       //stroke(360, 0, 100);
       fill(350, 0, 93);
-      text(tweet, dropZone.x + dropZoneRadius + 30, dropZone.y-dropZoneRadius, width/2-120, dropZoneRadius*2);
-      textSize(24);
+      text(tweet, dropZone.x + dropZoneRadius + 30, dropZone.y-dropZoneRadius, width/2-150, dropZoneRadius*2);
       textAlign(CENTER);
+      if(commonHashtag != ""){
       text("#" + commonHashtag, dropZone.x, dropZone.y - dropZoneRadius-10);
+      }
+      text(userID, dropZone.x, dropZone.y + dropZoneRadius + 15);
       textAlign(RIGHT, CENTER);
-      textSize(26);
-      text("User: " + userID, dropZone.x - dropZoneRadius - 30, dropZone.y - 30);
       text("Number of retweets: " + retweetCount, dropZone.x - dropZoneRadius - 30, dropZone.y);
-      text("Country of origin: ", dropZone.x - dropZoneRadius - 30, dropZone.y + 30);
+      //text("Country of origin: ", dropZone.x - dropZoneRadius - 30, dropZone.y + 30);
     }
   }
 

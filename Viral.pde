@@ -21,8 +21,10 @@ import com.temboo.core.*;
 import com.temboo.Library.Twitter.Search.*;
 
 PShape shape;
-PImage logo;
-PImage ebolalogo;
+PShape twitter;
+PShape ebola;
+PShape handOpen;
+PShape handPinched;
 
 LeapMotion leap;
 PVector handPos;
@@ -48,7 +50,7 @@ boolean displayID = false; //create boolean variable for displaying imported twe
 boolean clicked = false; //create a boolean variable to check if the mouse is being pressed
 boolean showConnections = false; //a boolean for toggling the connections between particles
 int numberGrabbed = 0; //create variable to determine how many tweets are grabbed (ensures only one can be held
-int importCounter = 0; //a variable for counting the number of times recent tweets have been added
+int importCounter = 0; //a variable for counting the number of times recent tweets h`` been added
 boolean recent = false; //boolean to determine if particle was part of the last set to be imported
 
 ArrayList<tweetParticle> particles;
@@ -70,6 +72,8 @@ int retrievalCounter = 0;
 int recentImportCounter = 0;
 int previousRecent =0;
 
+PFont f2;
+
 //-----------------------Setup--------------------------
 void setup() {
   size(1440, 900, P2D);
@@ -80,21 +84,25 @@ void setup() {
 
   dropZone = new DropZone(dropZoneRadius);
 
-shape = loadShape("symbol.svg");
-logo = loadImage("logo.png");
-ebolalogo = loadImage("ebolalogo.png");
-shapeMode(CENTER);
+  shape = loadShape("symbol.svg");
+  ebola = loadShape("ebolasmall.svg");
+  twitter = loadShape("twittersmall.svg");
+  handOpen = loadShape("handOpen.svg");
+  handPinched = loadShape("handPinched.svg");
+
+  shapeMode(CENTER);
 
   noCursor();
   //initialise font
-  f = createFont("Arial", 24);
+  f = createFont("Arial", 14);
+  f2 = createFont("Avenir-BlackOblique-14", 16);
   textFont(f);
 
   zoneCounter = 0;
 
-  thread("retrieveRecentTweets");
+  //thread("retrieveRecentTweets");
   // Run the Tweets Choreo function to retrieve initial batch of tweets
-  thread("retrieveInitialTweets");
+  // thread("retrieveInitialTweets");
 
 
   //import JSON file created by retrieveInitialTweets
@@ -126,20 +134,25 @@ shapeMode(CENTER);
 //------------------------draw-----------------------------
 
 void draw() {
-  background(360, 0, 0);
-  blendMode(ADD);
+  background(360, 0, 20);
+  //blendMode(ADD);
 
-  if (frameCount < 800) {
+  if (frameCount < 200) {
     //text("loading", width/2, height/2);
-    shape(shape,width/2,height/2-80);
-    image(logo, 140,height-300);
+    shape(shape, width/2, height/2-80);
+    // shape(twitter, 30, 30);
   } else {
     if (timer2.isFinished()) {
       thread("retrieveRecentTweets");
       timer2.start();
       //println("retreving recent!");
     }
-       image(ebolalogo, 140,height-300);
+    noStroke();
+    fill(200,65,95);
+    textSize(16);
+    stroke(255);
+    text("#ebola", 70, 50);
+    shape(ebola, 40, 30);
 
     //code for leap motion
     int fps = leap.getFrameRate();
@@ -159,50 +172,50 @@ void draw() {
     }
     //end of code for leap motion
 
-/* uncomment out this code to use the leap motion, need to
-changed all mouseX,mouseY variable to handX,handY
-    if (pinched == true) {
-      clicked = true;
-      for (int i = 0; i < particles.size (); i++) {
-        tweetParticle particle = particles.get(i);
-        //if there are no tweets being held, and a tweet is in range, grab it
-        if (numberGrabbed < 1) {
-          if (particle.isWithinReach(mouseX, mouseY, selectionRange) == true) {
-            particle.beingHeld = true; //set the variable inside the particle object to indicate that it has been grabbed
-            numberGrabbed = 1; //increase the int numberGrabbed to prevent other tweets from being held
-            particle.previousVelocity = particle.velocity;
-            particle.previousAcceleration = particle.acceleration;
-          } else {
-            particle.beingHeld = false;
-            numberGrabbed = 0;
-          }
-        }
-      }//end of for loop
-    } else {
-      clicked = false;
-      numberGrabbed = 0; //when the mouse is released, reset the number of tweets being held to 0
-      for (int i = 0; i < particles.size (); i++) {
-        tweetParticle particle = particles.get(i);
-        if (particle.beingHeld == true) {
-          float d = dist(dropZone.x, dropZone.y, particle.location.x, particle.location.y);
-          if (d < dropZoneRadius && zoneCounter < 1) {
-            particle.inTheZone = true;
-            zoneIsOccupied = true;
-            zoneCounter++;
-          } else if (d > dropZoneRadius) {
-            particle.inTheZone = false;
-            zoneIsOccupied = false;
-            zoneCounter = 0;
-          }
-        }
-        particle.beingHeld = false;
-        //particle.location = new PVector(mouseX,mouseY);
-        //particle.velocity = new PVector(mouseX - pmouseX, mouseY - pmouseY);
-      }
-    }//end of mouse released
-
-
-*/
+    /* uncomment out this code to use the leap motion, need to
+     changed all mouseX,mouseY variable to handX,handY
+     if (pinched == true) {
+     clicked = true;
+     for (int i = 0; i < particles.size (); i++) {
+     tweetParticle particle = particles.get(i);
+     //if there are no tweets being held, and a tweet is in range, grab it
+     if (numberGrabbed < 1) {
+     if (particle.isWithinReach(mouseX, mouseY, selectionRange) == true) {
+     particle.beingHeld = true; //set the variable inside the particle object to indicate that it has been grabbed
+     numberGrabbed = 1; //increase the int numberGrabbed to prevent other tweets from being held
+     particle.previousVelocity = particle.velocity;
+     particle.previousAcceleration = particle.acceleration;
+     } else {
+     particle.beingHeld = false;
+     numberGrabbed = 0;
+     }
+     }
+     }//end of for loop
+     } else {
+     clicked = false;
+     numberGrabbed = 0; //when the mouse is released, reset the number of tweets being held to 0
+     for (int i = 0; i < particles.size (); i++) {
+     tweetParticle particle = particles.get(i);
+     if (particle.beingHeld == true) {
+     float d = dist(dropZone.x, dropZone.y, particle.location.x, particle.location.y);
+     if (d < dropZoneRadius && zoneCounter < 1) {
+     particle.inTheZone = true;
+     zoneIsOccupied = true;
+     zoneCounter++;
+     } else if (d > dropZoneRadius) {
+     particle.inTheZone = false;
+     zoneIsOccupied = false;
+     zoneCounter = 0;
+     }
+     }
+     particle.beingHeld = false;
+     //particle.location = new PVector(mouseX,mouseY);
+     //particle.velocity = new PVector(mouseX - pmouseX, mouseY - pmouseY);
+     }
+     }//end of mouse released
+     
+     
+     */
 
     dropZone.display();
 
@@ -252,17 +265,12 @@ changed all mouseX,mouseY variable to handX,handY
       String stringTweet = particle.tweet;
 
 
-      // if (particle.isRecent == true) {
-      //   if (displayID == true) {
-      //   }
-      // }
-
       //if the mouse pointer is within close proximity of a particle, draw the
       //particle's userID to the screen, if the mouse is pressed while it is within
       //proximity, display the tweet
-      if (particle.checkProximity(mouseX, mouseY) == true) {
-        textSize(20);
-        text(stringID, particle.location.x + selectionRange, particle.location.y+5, 300, 100);
+      if (particle.checkProximity(mouseX, mouseY) == true && particle.isRecent == false) {
+        textSize(14);
+        text(stringID, particle.location.x + selectionRange, particle.location.y, 300, 100);
         if (clicked == true) {
           //  rect(particle.location.x+5 + selectionRange, particle.location.y+20, 300, 100);
           // text(stringTweet, particle.location.x+5 + selectionRange, particle.location.y+20, 300, 100);
@@ -324,13 +332,13 @@ changed all mouseX,mouseY variable to handX,handY
     textAlign(LEFT);
     //draw a list of upcoming recent tweets to the display
     if (recentCache.size() > 0) {
-      textSize(20);
-      stroke(360, 0, 100);
-      fill(360, 0, 100);
-
+      textSize(14);
+      // stroke(360, 0, 100);
+      fill(200,65,95);
+      text("LIVE TWEETS:", 20, 90);
       for (int i = 0; i < recentCache.size (); i++) {
         tweetParticle temp = recentCache.get(i);
-        text(temp.userID, 80, 105 + i*30);
+        text(temp.userID, 20, 110 + i*18);
       }
       noStroke();
       noFill();
@@ -430,6 +438,12 @@ void drawCircle() {
   noStroke();
   fill(255, 50);
   ellipse(mouseX, mouseY, selectionRange*2, selectionRange*2);
+
+  if (mousePressed == true || pinched == true){
+shape(handPinched, mouseX + selectionRange, mouseY+selectionRange);
+  } else {
+      shape(handOpen, mouseX + selectionRange + 10, mouseY+selectionRange + 10);
+  }
 }
 
 
@@ -437,10 +451,4 @@ void drawCircle() {
 
 void keyPressed() {
   showConnections = !showConnections;
-}
-
-//-------------------------drawConsole()----------------
-
-void drawConsole(){
-  
 }

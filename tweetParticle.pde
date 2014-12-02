@@ -191,10 +191,10 @@ class tweetParticle {
       text(userID, location.x + selectionRange, location.y+5);
     } else {
       if (infected == true) {
-        noStroke();
+        stroke(350, 100, 93,40);
         fill(350, 100, 93, 90);
       } else {
-        noStroke();
+        stroke(150, 170, 160, 40);
         fill(150, 170, 160, 90);
       }
     }
@@ -531,7 +531,7 @@ class tweetParticle {
       if(commonHashtag != ""){
       text("#" + commonHashtag, dropZone.x, dropZone.y - dropZoneRadius-10);
       }
-      text(userID, dropZone.x, dropZone.y + dropZoneRadius + 15);
+      text(userID, dropZone.x, dropZone.y + dropZoneRadius + 20);
       textAlign(RIGHT, CENTER);
       text("Number of retweets: " + retweetCount, dropZone.x - dropZoneRadius - 30, dropZone.y);
       //text("Country of origin: ", dropZone.x - dropZoneRadius - 30, dropZone.y + 30);

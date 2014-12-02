@@ -25,6 +25,7 @@ PShape twitter;
 PShape ebola;
 PShape handOpen;
 PShape handPinched;
+PShape micro;
 
 LeapMotion leap;
 PVector handPos;
@@ -74,6 +75,9 @@ int previousRecent =0;
 
 PFont f2;
 
+int infectionCount = 0;
+int infectionRatio = 0;
+
 //-----------------------Setup--------------------------
 void setup() {
   size(1440, 900, P2D);
@@ -89,6 +93,7 @@ void setup() {
   twitter = loadShape("twittersmall.svg");
   handOpen = loadShape("handOpen.svg");
   handPinched = loadShape("handPinched.svg");
+  micro = loadShape("micro.svg");
 
   shapeMode(CENTER);
 
@@ -136,10 +141,12 @@ void setup() {
 void draw() {
   background(360, 0, 20);
   //blendMode(ADD);
+  
+  infectionCount = 0;
 
   if (frameCount < 200) {
     //text("loading", width/2, height/2);
-    shape(shape, width/2, height/2-80);
+    shape(shape, width/2, height/2);
     // shape(twitter, 30, 30);
   } else {
     if (timer2.isFinished()) {
@@ -229,6 +236,10 @@ void draw() {
       particle.checkSpawnTimer();
       particle.displayFullTweet(f);
       particle.avoidTheZone();
+      
+      if (particle.infected == true){
+        infectionCount++;
+      }
 
       //checks if tweets share a hashtag and, if so, draws a connection 
       //using the drawConnections() function
@@ -302,15 +313,15 @@ void draw() {
     drawCircle();
     // println(recentImportCounter);
 
-    text("number of tweets: " + particles.size(), 50, height - 30);
-    text(frameRate, width - 200, height - 30);
+    // text("number of tweets: " + particles.size(), 50, height - 30);
+    // text(frameRate, width - 200, height - 30);
     noStroke();
 
 
     // println(recentCache.size());
 
     //this conditional statement adds a recent tweet from the 
-    //recentCache array list (every 200 frames)
+    //recentCache array list (every 200 frames), then removes it from recentCache
     if (frameCount % 200 == 0) {
       if (recentCache.size() > 0) {
         tweetParticle temp = recentCache.get(0);
@@ -343,6 +354,8 @@ void draw() {
       noStroke();
       noFill();
     }
+    
+    textAlign(LEFT);
   }//end of else statement for loading
 } //end of draw
 

@@ -20,6 +20,7 @@ class DropZone {
   
   //methods
   void display(){
+    shape(micro,x-35,y-10);
     noStroke();
     fill(255,50);
     ellipse(x,y,2*r,2*r);

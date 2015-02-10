@@ -172,7 +172,7 @@ void draw() {
 
     /* uncomment out this code to use the leap motion, need to
      changed all mouseX,mouseY variable to handX,handY
-     */
+     
      if (pinched == true) {
      clicked = true;
      for (int i = 0; i < particles.size (); i++) {
@@ -213,7 +213,7 @@ void draw() {
      }
      }//end of mouse released
      
-     
+     */
      
 
     dropZone.display();
@@ -271,7 +271,7 @@ void draw() {
       //if the mouse pointer is within close proximity of a particle, draw the
       //particle's userID to the screen, if the mouse is pressed while it is within
       //proximity, display the tweet
-      if (particle.checkProximity(handX, handY) == true && particle.isRecent == false) {
+      if (particle.checkProximity(mouseX, mouseY) == true && particle.isRecent == false) {
         textSize(14);
         text(stringID, particle.location.x + selectionRange, particle.location.y, 300, 100);
         if (clicked == true) {
@@ -402,7 +402,7 @@ void mousePressed() {
     tweetParticle particle = particles.get(i);
     //if there are no tweets being held, and a tweet is in range, grab it
     if (numberGrabbed < 1) {
-      if (particle.isWithinReach(handX, handY, selectionRange) == true) {
+      if (particle.isWithinReach(mouseX, mouseY, selectionRange) == true) {
         particle.beingHeld = true; //set the variable inside the particle object to indicate that it has been grabbed
         numberGrabbed++; //increase the int numberGrabbed to prevent other tweets from being held
         particle.previousVelocity = particle.velocity;
@@ -442,12 +442,12 @@ void mouseReleased() {
 void drawCircle() {
   noStroke();
   fill(255, 50);
-  ellipse(handX, handY, selectionRange*2, selectionRange*2);
+  ellipse(mouseX, mouseY, selectionRange*2, selectionRange*2);
 
   if (mousePressed == true || pinched == true){
-shape(handPinched, handX + selectionRange, handY+selectionRange);
+shape(handPinched, mouseX + selectionRange, mouseY+selectionRange);
   } else {
-      shape(handOpen, handX + selectionRange + 10, handY+selectionRange + 10);
+      shape(handOpen, mouseX + selectionRange + 10, mouseY+selectionRange + 10);
   }
 }
 

@@ -120,7 +120,7 @@ class tweetParticle {
 
     selector = random(0, 100);
 
-    if (selector < 3) {
+    if (selector < 50) {
       infected = true;
     } else {
       infected = false;
@@ -200,8 +200,8 @@ class tweetParticle {
       }
     }
     if (beingHeld == true) {
-      location.x = handX;
-      location.y = handY;
+      location.x = mouseX;
+      location.y = mouseY;
       displayHashTag();
     }
 
